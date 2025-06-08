@@ -1,9 +1,9 @@
 from base64 import b64encode
 from dotenv import load_dotenv, set_key
-import json
 import os
 import requests
 from time import sleep
+import traceback
 
 
 class API:
@@ -127,71 +127,50 @@ def submittable_alphas(alphas):
 
 
 class Alpha:
-    def simulate(wq_session, alpha):
+    def simulate(wq_session, simulation_data):
         while True:
             try:
-                simul_post = wq_session.post(
+                simulation_response = wq_session.post(
                     API.simul,
-                    headers={
-                        "accept": "application/json;version=2.0",
-                        "content-type": "application/json"
-                    },
-                    data=json.dumps(alpha)
+                    json=simulation_data
                 )
 
-                simul_loc = simul_post.headers['Location']
+                simulation_progress_url = simulation_response.headers['Location']
                 break
 
-            except Exception as e:
-                print(f'{clr.red}Exception in simulate: {e}{clr.white}')
+            except Exception:
+                print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
         trial = 0
 
         while True:
-            try:
-                simulation = wq_session.get(simul_loc)
-                body = simulation.json()
-
-            except Exception as e:
-                print(f'{clr.red}Exception in simulate: {e}{clr.white}')
-                sleep(1)
-                continue
-
             trial += 1
 
-            alpha_id = body.get('alpha')
+            simulation_progress = wq_session.get(simulation_progress_url)
 
-            if (alpha_id is None or alpha_id == ''):
-                progress = body.get('progress')
-
-                if (progress is None):
-                    print(f'{clr.red}{body}{clr.white}')
+            if (simulation_progress.headers.get('Retry-After', 0) == 0):
+                try:
+                    alpha_id = simulation_progress.json()['alpha']
                     break
+                except Exception:
+                    print(f'{clr.red}{traceback.format_exc()}{clr.white}')
+                    sleep(1)
+                    continue
 
-                else:
-                    status = f'{clr.yellow}Attempt #{trial} | Alpha Progress: {int(progress * 100):3d}%{clr.white}'
-                    status = status.ljust(50)
-
-                    print(status, end='\r', flush=True)
-
-                    sleep(2 * float(simulation.headers['Retry-After']))
-
-            else:
-                print('\r' + ' ' * 80 + '\r', end='')
-                print(f'{clr.yellow}Simulation Complete! | Alpha ID = {alpha_id}{clr.white}')
-                break
+            print(f'{clr.yellow}Simulation Progress: {100 * simulation_progress.json()['progress']}%{clr.white}')
+            sleep(2 * float(simulation_progress.headers['Retry-After']))
 
         while True:
             try:
-                simul_resp = wq_session.get(API.alpha + alpha_id)
-                simul_resp = simul_resp.json()
+                alpha = wq_session.get(API.alpha + alpha_id)
+                alpha = alpha.json()
                 break
-            except Exception as e:
-                print(f'{clr.red}Exception in simulate: {e}{clr.white}')
+            except Exception:
+                print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
-        return alpha_id, simul_resp
+        return alpha_id, alpha
 
     def get_performance(wq_session, alpha_id):
         while True:
@@ -200,8 +179,8 @@ class Alpha:
                 try:
                     perf = perf_resp.json()
                     break
-                except Exception as e:
-                    print(f'{clr.red}Exception in get_performance: {e}{clr.white}')
+                except Exception:
+                    print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                     sleep(1)
 
             print(f'{clr.yellow}Getting Performance...{clr.white}')

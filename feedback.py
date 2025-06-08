@@ -7,6 +7,7 @@ from matplotlib.ticker import MaxNLocator
 import os
 import pickle
 from time import sleep
+import traceback
 import utils
 
 
@@ -131,8 +132,8 @@ class Model:
                 resp = response.text
                 return json.loads(resp)
 
-            except Exception as e:
-                print(f'{clr.red}Exception in get_output: {e}{clr.white}')
+            except Exception:
+                print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
     def process_output(alpha):
