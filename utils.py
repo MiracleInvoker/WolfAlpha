@@ -106,27 +106,6 @@ def wq_login():
     return wq_session
 
 
-def alpha_json2txt(alpha):
-    settings = alpha['settings']
-    regular = alpha['regular']
-
-    alpha_txt = f"""
-Alpha Expression:
-{regular.replace(' ', '').replace('\r\n', '').replace('\n', '')}
-Simulation Settings:
-Region: {settings['region']}
-Universe: {settings['universe']}
-Delay: {settings['delay']}
-Decay: {settings['decay']}
-Neutralization: {settings['neutralization']}
-Truncation: {settings['truncation']}
-Pasteurization: {settings['pasteurization']}
-NaN Handling: {settings['nanHandling']}
-"""
-
-    return alpha_txt.strip()
-
-
 def submittable_alphas(alphas):
     submittable_alphas = []
 
@@ -149,26 +128,6 @@ def submittable_alphas(alphas):
 
 class Alpha:
     def simulate(wq_session, alpha):
-        payload = {
-            'type': 'REGULAR',
-            'settings': {
-                'nanHandling': alpha['NaN Handling'],
-                'instrumentType': 'EQUITY',
-                'delay': alpha['Delay'],
-                'universe': alpha['Universe'],
-                'truncation': alpha['Truncation'],
-                'unitHandling': 'VERIFY',
-                'testPeriod': 'P0D',
-                'pasteurization': 'ON',
-                'region': 'USA',
-                'language': 'FASTEXPR',
-                'decay': alpha['Decay'],
-                'neutralization': alpha['Neutralization'],
-                'visualization': False
-            },
-            'regular': alpha['Alpha Expression']
-        }
-
         while True:
             try:
                 simul_post = wq_session.post(
@@ -177,7 +136,7 @@ class Alpha:
                         "accept": "application/json;version=2.0",
                         "content-type": "application/json"
                     },
-                    data=json.dumps(payload)
+                    data=json.dumps(alpha)
                 )
 
                 simul_loc = simul_post.headers['Location']
@@ -185,7 +144,7 @@ class Alpha:
 
             except Exception as e:
                 print(f'{clr.red}Exception in simulate: {e}{clr.white}')
-
+                sleep(1)
 
         trial = 0
 
@@ -196,13 +155,14 @@ class Alpha:
 
             except Exception as e:
                 print(f'{clr.red}Exception in simulate: {e}{clr.white}')
+                sleep(1)
                 continue
 
             trial += 1
 
             alpha_id = body.get('alpha')
 
-            if (alpha_id is None):
+            if (alpha_id is None or alpha_id == ''):
                 progress = body.get('progress')
 
                 if (progress is None):
@@ -229,6 +189,7 @@ class Alpha:
                 break
             except Exception as e:
                 print(f'{clr.red}Exception in simulate: {e}{clr.white}')
+                sleep(1)
 
         return alpha_id, simul_resp
 
@@ -241,6 +202,7 @@ class Alpha:
                     break
                 except Exception as e:
                     print(f'{clr.red}Exception in get_performance: {e}{clr.white}')
+                    sleep(1)
 
             print(f'{clr.yellow}Getting Performance...{clr.white}')
 
@@ -252,3 +214,25 @@ class Alpha:
 
     def is_submittable():
         pass
+
+    def to_text(alpha):
+        settings = alpha['settings']
+        regular = alpha['regular']
+
+        regular = regular.replace(' ', '').replace('\r\n', '').replace('\n', '')
+
+        alpha_txt = f"""
+Alpha Expression:
+{regular}
+Simulation Settings:
+Region: {settings['region']}
+Universe: {settings['universe']}
+Delay: {settings['delay']}
+Decay: {settings['decay']}
+Neutralization: {settings['neutralization']}
+Truncation: {settings['truncation']}
+Pasteurization: {settings['pasteurization']}
+NaN Handling: {settings['nanHandling']}
+"""
+
+        return alpha_txt.strip()

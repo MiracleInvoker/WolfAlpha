@@ -3,3 +3,4 @@ contexts/
 prompts/
 simulations/
 __pycache__
+config.py

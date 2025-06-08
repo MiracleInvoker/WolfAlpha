@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 import os
 import pickle
+from time import sleep
 import utils
 
 
@@ -109,29 +110,101 @@ model_config = types.GenerateContentConfig(
 )
 
 
-def count_tokens(client, context):
-    resp = client.models.count_tokens(
-        model=config.model,
-        contents=context
-    )
+class Model:
+    def count_tokens(client, context):
+        resp = client.models.count_tokens(
+            model=config.model,
+            contents=context
+        )
 
-    return resp.total_tokens
+        return resp.total_tokens
+
+    def get_output(client, model_config, context):
+        while True:
+            try:
+                response = client.models.generate_content(
+                    model=config.model,
+                    contents=context,
+                    config=model_config
+                )
+
+                resp = response.text
+                return json.loads(resp)
+
+            except Exception as e:
+                print(f'{clr.red}Exception in get_output: {e}{clr.white}')
+                sleep(1)
+
+    def process_output(alpha):
+
+        payload = {
+            'type': 'REGULAR',
+            'settings': {
+                'nanHandling': alpha['NaN Handling'],
+                'instrumentType': 'EQUITY',
+                'delay': alpha['Delay'],
+                'universe': alpha['Universe'],
+                'truncation': alpha['Truncation'],
+                'unitHandling': 'VERIFY',
+                'testPeriod': 'P0D',
+                'pasteurization': 'ON',
+                'region': 'USA',
+                'language': 'FASTEXPR',
+                'decay': alpha['Decay'],
+                'neutralization': alpha['Neutralization'],
+                'visualization': False
+            },
+            'regular': alpha['Alpha Expression']
+        }
+
+        return payload
+    
+    def get_context(i, model_output):
+
+        model_context = f"""
+Iteration #{i + 1}
+Alpha Expression:
+{model_output['Alpha Expression']}
+
+Reasoning:
+{model_output['Reasoning']}
+
+Simulation Settings:
+Universe: {model_output['Universe']}
+Delay: {model_output['Delay']}
+Neutralization: {model_output['Neutralization']}
+Decay: {model_output['Decay']}
+Truncation: {model_output['Truncation']}
+NaN Handling: {model_output['NaN Handling']}
+"""
+        return model_context.strip()
 
 
-def generate_alpha(client, model_config, context):
+class User:
+    def get_context(simul_resp):
+        insample = simul_resp['is']
+        checks = insample['checks']
 
-    while True:
-        try:
-            response = client.models.generate_content(
-                model=config.model,
-                contents=context,
-                config=model_config
-            )
+        user_context = f"""
+Simulation Results:
+Sharpe: {insample['sharpe']}, Fitness: {insample['fitness']}, Turnover: {round(100 * insample['turnover'], 2)}%, Performance: {simul_resp['performance']}
+Returns: {round(100 * insample['returns'], 2)}%, Drawdown: {round(100 * insample['drawdown'], 2)}%, Sub Universe Sharpe: {checks[5]['value']}, Margin: {round(10000 * insample['margin'], 2)}‱
+"""
 
-            return response.text
+        if (checks[4]['result'] == 'FAIL'):
+            if (checks[4].get('value')):
+                user_context += f'Weight concentration {round(checks[4]['value'] * 100, 2)}% is above cutoff of {round(checks[4]['limit'] * 100, 2)}% on {checks[4]['date']}.\n'
+            else:
+                user_context += 'Weight is too strongly concentrated or too few instruments are assigned weight.\n'
 
-        except Exception as e:
-            print(f'{clr.red}Exception in generate_alpha: {e}{clr.white}')
+        if (checks[5]['result'] == 'FAIL'):
+            user_context += f'Sub Universe Sharpe {checks[5]['value']} is not above {checks[5]['limit']}.\n'
+
+        if (checks[6]['result'] == 'UNITS'):
+            user_context += checks[6]['message'].replace('; ', '\n')
+            user_context += '\n'
+
+        return user_context.strip()
 
 
 context.append(
@@ -154,37 +227,20 @@ print(f'{clr.green}{config.initial_prompt}{clr.white}')
 
 for i in range(config.max_iterations):
 
-    model_output = generate_alpha(genai_client, model_config, context)
+    model_output = Model.get_output(genai_client, model_config, context)
 
-    alpha = json.loads(model_output)
-
-    model_response = f"""
-Iteration #{i + 1}
-Alpha Expression:
-{alpha['Alpha Expression']}
-
-Reasoning:
-{alpha['Reasoning']}
-
-Simulation Settings:
-Universe: {alpha['Universe']}
-Delay: {alpha['Delay']}
-Neutralization: {alpha['Neutralization']}
-Decay: {alpha['Decay']}
-Truncation: {alpha['Truncation']}
-NaN Handling: {alpha['NaN Handling']}
-"""
-    model_response = model_response.strip()
+    model_context = Model.get_context(i, model_output)
+    alpha = Model.process_output(model_output)
 
     context.append(
         types.Content(
             role='model',
             parts=[
-                types.Part.from_text(text=model_response)
+                types.Part.from_text(text=model_context)
             ]
         )
     )
-    print(f'{clr.cyan}{model_response}{clr.white}')
+    print(f'{clr.cyan}{model_context}{clr.white}')
 
     alpha_id, simul_resp = utils.Alpha.simulate(wq_session, alpha)
     performance = utils.Alpha.get_performance(wq_session, alpha_id)
@@ -199,45 +255,23 @@ NaN Handling: {alpha['NaN Handling']}
         f.seek(0)
         json.dump(data, f, indent=2)
 
-    insample = simul_resp['is']
-    checks = insample['checks']
-
-    user_response = f"""
-Simulation Results:
-Sharpe: {insample['sharpe']}, Fitness: {insample['fitness']}, Turnover: {round(100 * insample['turnover'], 2)}%, Performance: {performance}
-Returns: {round(100 * insample['returns'], 2)}%, Drawdown: {round(100 * insample['drawdown'], 2)}%, Sub Universe Sharpe: {checks[5]['value']}, Margin: {round(10000 * insample['margin'], 2)}‱
-"""
-
-    if (checks[4]['result'] == 'FAIL'):
-        if (checks[4].get('value')):
-            user_response += f'Weight concentration {round(checks[4]['value'] * 100, 2)}% is above cutoff of {round(checks[4]['limit'] * 100, 2)}% on {checks[4]['date']}.\n'
-        else:
-            user_response += 'Weight is too strongly concentrated or too few instruments are assigned weight.\n'
-
-    if (checks[5]['result'] == 'FAIL'):
-        user_response += f'Sub Universe Sharpe {checks[5]['value']} is not above {checks[5]['limit']}.\n'
-
-    if (checks[6]['result'] == 'UNITS'):
-        user_response += checks[6]['message'].replace('; ', '\n')
-        user_response += '\n'
-
-    user_response = user_response.strip()
-
-    print(f'{clr.green}{user_response}{clr.white}')
+    user_context = User.get_context(simul_resp)
 
     context.append(
         types.Content(
             role='user',
             parts=[
-                types.Part.from_text(text=user_response)
+                types.Part.from_text(text=user_context)
             ]
         )
     )
 
+    print(f'{clr.green}{user_context}{clr.white}')
+
     with open(config.context_file, 'wb') as f:
         pickle.dump(context, f)
 
-    token_count = count_tokens(genai_client, context)
+    token_count = Model.count_tokens(genai_client, context)
     print(f'{clr.purple}Token Count: {token_count}{clr.white}')
 
     print()
