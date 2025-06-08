@@ -1,0 +1,92 @@
+[
+  {
+    "id": "close",
+    "description": "Daily close price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "volume",
+    "description": "Daily volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "returns",
+    "description": "Daily returns",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cap",
+    "description": "Daily market capitalization (in millions)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "subindustry",
+    "description": "Subindustry grouping",
+    "type": "GROUP"
+  },
+  {
+    "id": "sector",
+    "description": "Sector grouping",
+    "type": "GROUP"
+  },
+  {
+    "id": "adv20",
+    "description": "Average daily volume in past 20 days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "industry",
+    "description": "Industry grouping",
+    "type": "GROUP"
+  },
+  {
+    "id": "open",
+    "description": "Daily open price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "vwap",
+    "description": "Daily volume weighted average price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "high",
+    "description": "Daily high price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "low",
+    "description": "Daily low price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "market",
+    "description": "Market grouping",
+    "type": "GROUP"
+  },
+  {
+    "id": "exchange",
+    "description": "Exchange grouping",
+    "type": "GROUP"
+  },
+  {
+    "id": "sharesout",
+    "description": "Daily outstanding shares (in millions)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "dividend",
+    "description": "Dividend",
+    "type": "MATRIX"
+  },
+  {
+    "id": "split",
+    "description": "Stock split ratio",
+    "type": "MATRIX"
+  },
+  {
+    "id": "country",
+    "description": "Country grouping",
+    "type": "GROUP"
+  }
+]

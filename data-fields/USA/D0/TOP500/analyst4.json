@@ -1,0 +1,1994 @@
+[
+  {
+    "id": "est_ebit",
+    "description": "Earnings before interest and taxes - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7302,
+    "userCount": 1,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "est_grossincome",
+    "description": "Gross income - Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6239,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "est_tot_assets",
+    "description": "Total Assets - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7515,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "est_capex",
+    "description": "Capital Expenditures - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.642,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "est_cashflow_fin",
+    "description": "Cash Flow From Financing - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6198,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "est_ebitda",
+    "description": "Earnings before interest, taxes, depreciation, and amortization - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6039,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "est_epsr",
+    "description": "GAAP Earnings per share - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7397,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "est_netprofit",
+    "description": "Net profit - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7854,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_down",
+    "description": "Number of lower estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_high",
+    "description": "The highest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_cuo1conaf_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_low",
+    "description": "The lowest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_mean",
+    "description": "Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_median",
+    "description": "Median of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_ady_pu",
+    "description": "The number of upper estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7195,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_down",
+    "description": "Number of lower estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_high",
+    "description": "The highest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_cuo1conqf_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_low",
+    "description": "The lowest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_mean",
+    "description": "Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_median",
+    "description": "Median of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_adxqf_pu",
+    "description": "The number of upper estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.6977,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_down",
+    "description": "Number of lower estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_high",
+    "description": "The highest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_bac1conaf_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_low",
+    "description": "The lowest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_mean",
+    "description": "Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_median",
+    "description": "Median of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconaf_pu",
+    "description": "The number of upper estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7343,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_down",
+    "description": "Number of lower estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_high",
+    "description": "The highest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_bac1conqf_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_low",
+    "description": "The lowest estimation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_mean",
+    "description": "Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_median",
+    "description": "Median of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicconqf_pu",
+    "description": "The number of upper estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7261,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1afv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7887,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsdtlestmtafv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7897,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1afv4_preest",
+    "description": "The previous estimation of financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7872,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1basicafv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.8072,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsdtlestmtbasicafv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.8083,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1basicafv4_preest",
+    "description": "The previous estimation of financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.8059,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1basicqfv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7887,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsdtlestmtbasicqfv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.79,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1basicqfv4_preest",
+    "description": "The previous estimation of financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7862,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1qfv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7277,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsdtlestmtqfv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7287,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1qfv4_preest",
+    "description": "The previous estimation of financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.7255,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1safv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3141,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsdtlestmtsafv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3145,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_dez1safv4_preest",
+    "description": "The previous estimation of financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3065,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_guiafv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.4542,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsguidanceafv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.4542,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_afv4_maxguidance",
+    "description": "Max guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.4542,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_afv4_minguidance",
+    "description": "Min guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.4542,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_guibasicqfv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3216,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsguidancebasicqfv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3216,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicqfv4_maxguidance",
+    "description": "Maximum guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3216,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_basicqfv4_minguidance",
+    "description": "Min guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3216,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_guiqfv4_est",
+    "description": "Estimation value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3055,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_fsguidanceqfv4_item",
+    "description": "Financial item",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3055,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_qfv4_maxguidance",
+    "description": "Max guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3055,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "anl4_qfv4_minguidance",
+    "description": "Min guidance value",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.3055,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_bookvalue_ps",
+    "description": "Book value per share - average of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6749,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_cashflow_invst",
+    "description": "Cash Flow From Investing - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6148,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_cashflow_op",
+    "description": "Cash Flow From Operations - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6511,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_epsa",
+    "description": "Earnings per share adjusted by excluding extraordinary items and stock option expenses - average of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.1577,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_fcf",
+    "description": "Free Cash Flow - Mean of Estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5771,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_fcf_ps",
+    "description": "Free Cash Flow Per Share - Mean of Estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.4637,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_ffo",
+    "description": "Funds From Operation - Summary on Estimations, Mean",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.0411,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_netdebt",
+    "description": "Net debt - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.543,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_netprofit_adj",
+    "description": "Adjusted net income - Mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7724,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_ptp",
+    "description": "Pretax income - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.752,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_ptpr",
+    "description": "Reported pretax income - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.4367,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_rd_expense",
+    "description": "Research and Development Expense - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.3124,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_sga",
+    "description": "SGA - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5115,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_shequity",
+    "description": "Mean of SH Equity segment - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.7591,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_tbv_ps",
+    "description": "Tangible Book Value per Share - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.3472,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "est_tot_goodwill",
+    "description": "Total Goodwill - mean of estimations",
+    "dataset": {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity"
+    },
+    "category": {
+      "id": "analyst",
+      "name": "Analyst"
+    },
+    "subcategory": {
+      "id": "analyst-analyst-estimates",
+      "name": "Analyst Estimates"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5647,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

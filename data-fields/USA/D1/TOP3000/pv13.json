@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "pv13_r2_min2_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 1787,
+    "alphaCount": 7440,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min2_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 1182,
+    "alphaCount": 5981,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min20_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 1529,
+    "alphaCount": 5370,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min2_focused_pureplay_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 1089,
+    "alphaCount": 4054,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_f1_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 566,
+    "alphaCount": 1768,
+    "themes": []
+  },
+  {
+    "id": "rel_ret_comp",
+    "description": "Averaged one-day return of the competing companies",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8228,
+    "userCount": 851,
+    "alphaCount": 1476,
+    "themes": []
+  },
+  {
+    "id": "pv13_h2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 305,
+    "alphaCount": 1172,
+    "themes": []
+  },
+  {
+    "id": "rel_ret_part",
+    "description": "Averaged one-day return of the instrument's partners",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7097,
+    "userCount": 401,
+    "alphaCount": 1119,
+    "themes": []
+  },
+  {
+    "id": "rel_num_part",
+    "description": "number of the instrument's partners",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7837,
+    "userCount": 443,
+    "alphaCount": 1050,
+    "themes": []
+  },
+  {
+    "id": "rel_num_cust",
+    "description": "number of the instrument's customers",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5068,
+    "userCount": 396,
+    "alphaCount": 996,
+    "themes": []
+  },
+  {
+    "id": "rel_ret_all",
+    "description": "Averaged one-day return of the companies whose product overlapped with the instrument",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9613,
+    "userCount": 284,
+    "alphaCount": 959,
+    "themes": []
+  },
+  {
+    "id": "rel_num_comp",
+    "description": "number of the instrument's competitors",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8902,
+    "userCount": 391,
+    "alphaCount": 915,
+    "themes": []
+  },
+  {
+    "id": "pv13_com_rk_au",
+    "description": "the HITS authority score of competitors",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8966,
+    "userCount": 317,
+    "alphaCount": 853,
+    "themes": []
+  },
+  {
+    "id": "rel_num_all",
+    "description": "number of the companies whose product overlapped with the instrument",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9939,
+    "userCount": 279,
+    "alphaCount": 852,
+    "themes": []
+  },
+  {
+    "id": "pv13_com_page_rank",
+    "description": "the PageRank of competitors",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8966,
+    "userCount": 283,
+    "alphaCount": 752,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min20_top3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 121,
+    "alphaCount": 700,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min5_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 150,
+    "alphaCount": 685,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min10_all_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 107,
+    "alphaCount": 670,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_zipcode",
+    "description": "Zip code",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9238,
+    "userCount": 131,
+    "alphaCount": 635,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min51_f3_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 90,
+    "alphaCount": 623,
+    "themes": []
+  },
+  {
+    "id": "pv13_custretsig_retsig",
+    "description": "Sign of customer return",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 178,
+    "alphaCount": 621,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_key_sector_total",
+    "description": "Number of key focus sectors for the company",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 266,
+    "alphaCount": 578,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_term_sector_total",
+    "description": "Number of terminal sectors for the company",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 259,
+    "alphaCount": 573,
+    "themes": []
+  },
+  {
+    "id": "pv13_reveremap",
+    "description": "Mapping data",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 218,
+    "alphaCount": 564,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min10_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 140,
+    "alphaCount": 553,
+    "themes": []
+  },
+  {
+    "id": "pv13_ustomergraphrank_hub_rank",
+    "description": "the HITS hub score of customers",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7906,
+    "userCount": 230,
+    "alphaCount": 535,
+    "themes": []
+  },
+  {
+    "id": "pv13_ompetitorgraphrank_hub_rank",
+    "description": "the HITS hub score of competitors",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8966,
+    "userCount": 155,
+    "alphaCount": 508,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min10_top3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 93,
+    "alphaCount": 489,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_liquid_min10_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.1866,
+    "userCount": 230,
+    "alphaCount": 489,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_f3_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 93,
+    "alphaCount": 469,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_index_cap",
+    "description": "Company market capitalization",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 288,
+    "alphaCount": 434,
+    "themes": []
+  },
+  {
+    "id": "rel_ret_cust",
+    "description": "averaged one-day-return of the instrument's customers",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4921,
+    "userCount": 153,
+    "alphaCount": 424,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min30_3000_mapped_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 63,
+    "alphaCount": 392,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min5_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 67,
+    "alphaCount": 384,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min52_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 62,
+    "alphaCount": 378,
+    "themes": []
+  },
+  {
+    "id": "pv13_ustomergraphrank_page_rank",
+    "description": "the PageRank of customers",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7906,
+    "userCount": 161,
+    "alphaCount": 377,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_city",
+    "description": "City code",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9999,
+    "userCount": 140,
+    "alphaCount": 337,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_focused_pureplay_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 238,
+    "alphaCount": 299,
+    "themes": []
+  },
+  {
+    "id": "pv13_ustomergraphrank_auth_rank",
+    "description": "the HITS authority score of customers",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7906,
+    "userCount": 126,
+    "alphaCount": 263,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_country",
+    "description": "Country code",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 96,
+    "alphaCount": 258,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min20_1000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3674,
+    "userCount": 74,
+    "alphaCount": 232,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min22_1000_sector",
+    "description": "Grouping fields for top 1000",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3673,
+    "userCount": 48,
+    "alphaCount": 224,
+    "themes": []
+  },
+  {
+    "id": "pv13_h2_min2_1k_sector",
+    "description": "Grouping fields for top 1000",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3681,
+    "userCount": 55,
+    "alphaCount": 195,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_term",
+    "description": "Indicates when a sector is the terminal sector (i.e., no sub-sectors)",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4115,
+    "userCount": 75,
+    "alphaCount": 182,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min52_1k_sector",
+    "description": "Grouping fields for top 1000",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3673,
+    "userCount": 26,
+    "alphaCount": 172,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min10_1000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3674,
+    "userCount": 30,
+    "alphaCount": 167,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min2_1000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3674,
+    "userCount": 37,
+    "alphaCount": 165,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_min5_1000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3674,
+    "userCount": 40,
+    "alphaCount": 165,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_level",
+    "description": "Level of the sector within the hierarchy",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6205,
+    "userCount": 73,
+    "alphaCount": 137,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_company_total",
+    "description": "Total number of companies in the sector",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6231,
+    "userCount": 107,
+    "alphaCount": 133,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_index_value",
+    "description": "Value of specified index for the date",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 70,
+    "alphaCount": 110,
+    "themes": []
+  },
+  {
+    "id": "pv13_6l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 77,
+    "alphaCount": 108,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_liquid_min5_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.1866,
+    "userCount": 45,
+    "alphaCount": 92,
+    "themes": []
+  },
+  {
+    "id": "pv13_1l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9256,
+    "userCount": 42,
+    "alphaCount": 79,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy23_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 55,
+    "alphaCount": 65,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min24_500_sector",
+    "description": "Grouping fields for top 500",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.186,
+    "userCount": 42,
+    "alphaCount": 58,
+    "themes": []
+  },
+  {
+    "id": "pv13_r2_liquid_min2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.1866,
+    "userCount": 32,
+    "alphaCount": 51,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchys32_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 41,
+    "alphaCount": 46,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min5_500_sector",
+    "description": "Grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.186,
+    "userCount": 30,
+    "alphaCount": 46,
+    "themes": []
+  },
+  {
+    "id": "pv13_2l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 20,
+    "alphaCount": 38,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_6l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 16,
+    "alphaCount": 38,
+    "themes": []
+  },
+  {
+    "id": "pv13_4l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 23,
+    "alphaCount": 31,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 18,
+    "alphaCount": 30,
+    "themes": []
+  },
+  {
+    "id": "pv13_5l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 16,
+    "alphaCount": 27,
+    "themes": []
+  },
+  {
+    "id": "pv13_3l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 17,
+    "alphaCount": 26,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_5l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 23,
+    "alphaCount": 26,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_parent",
+    "description": "Code of parent sector",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6205,
+    "userCount": 15,
+    "alphaCount": 26,
+    "themes": []
+  },
+  {
+    "id": "pv13_h_min2_focused_sector",
+    "description": "Grouping fields for top 200",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.186,
+    "userCount": 19,
+    "alphaCount": 21,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f1_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 12,
+    "alphaCount": 19,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy23_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 13,
+    "alphaCount": 19,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_f3g2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 14,
+    "alphaCount": 16,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 13,
+    "alphaCount": 15,
+    "themes": []
+  },
+  {
+    "id": "pv13_revere_comproduct_company",
+    "description": "Company product",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4078,
+    "userCount": 13,
+    "alphaCount": 14,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min100_corr21_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6299,
+    "userCount": 9,
+    "alphaCount": 14,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_3l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 12,
+    "alphaCount": 14,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f1_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 8,
+    "alphaCount": 11,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 9,
+    "alphaCount": 11,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f2_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 10,
+    "alphaCount": 10,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_2l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 8,
+    "alphaCount": 10,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 4,
+    "alphaCount": 9,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f4_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 9,
+    "alphaCount": 9,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min10_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 7,
+    "alphaCount": 9,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_industry_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 6,
+    "alphaCount": 8,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min5_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.722,
+    "userCount": 8,
+    "alphaCount": 8,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min40_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 5,
+    "alphaCount": 7,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_1l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.8717,
+    "userCount": 7,
+    "alphaCount": 7,
+    "themes": []
+  },
+  {
+    "id": "pv13_new_4l_scibr",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 7,
+    "alphaCount": 7,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min20_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 7,
+    "alphaCount": 7,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f4_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 5,
+    "alphaCount": 6,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min50_f3_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 5,
+    "alphaCount": 6,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f4_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 5,
+    "alphaCount": 6,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy2_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 6,
+    "alphaCount": 6,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min5_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 6,
+    "alphaCount": 6,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_industry_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 5,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_sector_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 3,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_focused_only_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 5,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_3k_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 3,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_top3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 3,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 5,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 5,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min2_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 5,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min20_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6959,
+    "userCount": 2,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f4_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 4,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 4,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_focused_pureplay_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 4,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_focused_pureplay_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 4,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min30_3000_mapped_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 3,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f1_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 3,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchys32_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9933,
+    "userCount": 4,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.722,
+    "userCount": 3,
+    "alphaCount": 4,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_2k_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_3k_all_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 2,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min100_2000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min30_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 2,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min30_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min52_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 2,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min54_3000_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min30_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.993,
+    "userCount": 2,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min40_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.993,
+    "userCount": 2,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_focused_only_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_3k_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min20_f3_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min22_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 1,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f2_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f3_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min52_2k_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min10_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.722,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min20_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.722,
+    "userCount": 1,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min5_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_di_5l",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_di_6l",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_f3_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_sector_3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_top3000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min100_corr21_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6474,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min22_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min51_f2_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min52_1k_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min10_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min10_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6959,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min2_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "pv13_percentregion",
+    "description": "Exposure percentage",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 0.9881,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_region",
+    "description": "Unique code of the region",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 0.9898,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_reportperiodend",
+    "description": "Stated end date for the report",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 0.9979,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_reportperiodlen",
+    "description": "The number of units which the report covers prior to the stated end date",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 0.9979,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_reporttype",
+    "description": "Type of report",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 0.9979,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min10_2k_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_pureplay_only_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min2_pureplay_only_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min22_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min25_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min25_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min30_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.7196,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min5_corr21_1000_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3539,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min52_2k_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6945,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy_min52_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.9929,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_hierarchy2_min2_1k_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.3548,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min2_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6959,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_rha2_min5_513_sector",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 0.6959,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "pv13_rcsed_6l",
+    "description": "grouping fields",
+    "dataset": {
+      "id": "pv13",
+      "name": "Relationship Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-relationship",
+      "name": "Relationship"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

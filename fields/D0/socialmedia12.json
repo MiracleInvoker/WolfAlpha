@@ -1,0 +1,17 @@
+[
+  {
+    "id": "scl12_buzzvec",
+    "description": "sentiment volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_typevec",
+    "description": "instrument type index",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_sentvec",
+    "description": "sentiment",
+    "type": "VECTOR"
+  }
+]

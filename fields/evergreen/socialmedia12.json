@@ -1,0 +1,32 @@
+[
+  {
+    "id": "scl12_buzz",
+    "description": "relative sentiment volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "snt_buzz_ret",
+    "description": "negative return of relative sentiment volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "scl12_sentiment",
+    "description": "sentiment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "snt_buzz_bfl",
+    "description": "negative relative sentiment volume, fill nan with 1",
+    "type": "MATRIX"
+  },
+  {
+    "id": "snt_buzz",
+    "description": "negative relative sentiment volume, fill nan with 0",
+    "type": "MATRIX"
+  },
+  {
+    "id": "snt_value",
+    "description": "negative sentiment, fill nan with 0",
+    "type": "MATRIX"
+  }
+]

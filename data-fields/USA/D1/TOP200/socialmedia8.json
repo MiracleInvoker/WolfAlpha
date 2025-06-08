@@ -1,0 +1,50 @@
+[
+  {
+    "id": "snt_social_value",
+    "description": "Z score of sentiment",
+    "dataset": {
+      "id": "socialmedia8",
+      "name": "Social Media Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "MATRIX",
+    "coverage": 0.8585,
+    "userCount": 97,
+    "alphaCount": 470,
+    "themes": []
+  },
+  {
+    "id": "snt_social_volume",
+    "description": "Normalized tweet volume",
+    "dataset": {
+      "id": "socialmedia8",
+      "name": "Social Media Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "MATRIX",
+    "coverage": 0.8585,
+    "userCount": 92,
+    "alphaCount": 310,
+    "themes": []
+  }
+]

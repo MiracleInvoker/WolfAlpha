@@ -1,0 +1,372 @@
+[
+  {
+    "id": "pcr_oi_270",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 270 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_10",
+    "description": "Price at which a stock's call options with expiration 10 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_20",
+    "description": "Price at which a stock's call options with expiration 20 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_180",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 180 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_1080",
+    "description": "Price at which a stock's call options with expiration 1080 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_10",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 10 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_1080",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 1080 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_120",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 120 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_120",
+    "description": "Price at which a stock's call options with expiration 120 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_30",
+    "description": "Price at which a stock's call options with expiration 30 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_all",
+    "description": "Ratio of put open interest to call open interest for all maturities on stock's options.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_150",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 150 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_90",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 90 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_180",
+    "description": "Price at which a stock's call options with expiration 180 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_10",
+    "description": "Forward price at 10 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_10",
+    "description": "Price at which a stock's options with expiration 10 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_10",
+    "description": "Price at which a stock's put options with expiration 10 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_150",
+    "description": "Price at which a stock's call options with expiration 150 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_360",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 360 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_1080",
+    "description": "Price at which a stock's put options with expiration 1080 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_270",
+    "description": "Price at which a stock's options with expiration 270 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_60",
+    "description": "Price at which a stock's call options with expiration 60 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_270",
+    "description": "Price at which a stock's call options with expiration 270 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_720",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 720 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_720",
+    "description": "Price at which a stock's call options with expiration 720 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_60",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 60 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_120",
+    "description": "Price at which a stock's options with expiration 120 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_20",
+    "description": "Forward price at 20 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_30",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 30 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_360",
+    "description": "Forward price at 360 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_oi_20",
+    "description": "Ratio of put open interest to call open interest on a stock's options with expiration 20 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_360",
+    "description": "Price at which a stock's call options with expiration 360 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_30",
+    "description": "Forward price at 30 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_1080",
+    "description": "Forward price at 1080 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_180",
+    "description": "Price at which a stock's options with expiration 180 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_360",
+    "description": "Price at which a stock's put options with expiration 360 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_90",
+    "description": "Price at which a stock's put options with expiration 90 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_720",
+    "description": "Forward price at 720 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "call_breakeven_90",
+    "description": "Price at which a stock's call options with expiration 90 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_1080",
+    "description": "Price at which a stock's options with expiration 1080 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_270",
+    "description": "Forward price at 270 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_720",
+    "description": "Price at which a stock's put options with expiration 720 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_270",
+    "description": "Price at which a stock's put options with expiration 270 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_360",
+    "description": "Price at which a stock's options with expiration 360 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_120",
+    "description": "Price at which a stock's put options with expiration 120 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_180",
+    "description": "Forward price at 180 days derived from a synthetic long option with payoff similar to long stock + option dynamics. combination of long ATM call, and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_1080",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 1080 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_270",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 270 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_150",
+    "description": "Forward price at 150 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_360",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 360 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_20",
+    "description": "Price at which a stock's options with expiration 20 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_60",
+    "description": "Forward price at 60 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_30",
+    "description": "Price at which a stock's put options with expiration 30 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_10",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 10 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_150",
+    "description": "Price at which a stock's put options with expiration 150 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_90",
+    "description": "Price at which a stock's options with expiration 90 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_20",
+    "description": "Price at which a stock's put options with expiration 20 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_150",
+    "description": "Price at which a stock's options with expiration 150 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_60",
+    "description": "Price at which a stock's put options with expiration 60 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_180",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 180 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_30",
+    "description": "Price at which a stock's options with expiration 30 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_all",
+    "description": "Ratio of put volume to call volume for all maturities on stock's options.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "put_breakeven_180",
+    "description": "Price at which a stock's put options with expiration 180 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_90",
+    "description": "Forward price at 90 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_150",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 150 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "forward_price_120",
+    "description": "Forward price at 120 days derived from a synthetic long option with payoff similar to long stock + option dynamics. Combination of long ATM call and short ATM put.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_60",
+    "description": "Price at which a stock's options with expiration 60 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "option_breakeven_720",
+    "description": "Price at which a stock's options with expiration 720 days in the future break even based on its recent bid/ask mean.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_30",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 30 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_120",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 120 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_60",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 60 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_720",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 720 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_20",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 20 days in the future.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pcr_vol_90",
+    "description": "Ratio of put volume to call volume on a stock's options with expiration 90 days in the future.",
+    "type": "MATRIX"
+  }
+]

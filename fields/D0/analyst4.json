@@ -1,0 +1,187 @@
+[
+  {
+    "id": "anl4_dez1basicafv4_preest",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfv4_maxguidance",
+    "description": "Max guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1conqf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsdtlestmtbasicafv4_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dez1basicqfv4_preest",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_afv4_minguidance",
+    "description": "Min guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicqfv4_minguidance",
+    "description": "Min guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfv4_minguidance",
+    "description": "Min guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1conaf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqf_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conaf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconaf_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conqf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqf_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dez1basicafv4_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dez1basicqfv4_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsdtlestmtbasicqfv4_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_afv4_maxguidance",
+    "description": "Max guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicqfv4_maxguidance",
+    "description": "Maximum guidance value",
+    "type": "VECTOR"
+  }
+]

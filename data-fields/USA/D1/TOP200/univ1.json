@@ -1,0 +1,122 @@
+[
+  {
+    "id": "top200",
+    "description": "universe",
+    "dataset": {
+      "id": "univ1",
+      "name": "Universe Dataset"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "UNIVERSE",
+    "coverage": 0.07,
+    "userCount": 1,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "top500",
+    "description": "universe",
+    "dataset": {
+      "id": "univ1",
+      "name": "Universe Dataset"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "UNIVERSE",
+    "coverage": 0.17,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "topsp500",
+    "description": "universe",
+    "dataset": {
+      "id": "univ1",
+      "name": "Universe Dataset"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "UNIVERSE",
+    "coverage": 0.0,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "top3000",
+    "description": "universe",
+    "dataset": {
+      "id": "univ1",
+      "name": "Universe Dataset"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "UNIVERSE",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "top1000",
+    "description": "universe",
+    "dataset": {
+      "id": "univ1",
+      "name": "Universe Dataset"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP200",
+    "type": "UNIVERSE",
+    "coverage": 0.33,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

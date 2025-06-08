@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "anl4_adjusted_netincome_ft",
+    "description": "Adjusted net income - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptp_flag",
+    "description": "Pretax income - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_flag_erbfintax",
+    "description": "Earnings before interest and taxes - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bvps_flag",
+    "description": "Book value per share - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebit_value",
+    "description": "Earnings before interest and taxes - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_flag",
+    "description": "Net profit - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_flag",
+    "description": "GAAP Earnings - estimation type (revision/new/...), per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_number",
+    "description": "Reported Pretax Income - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "est_eps",
+    "description": "Earnings per share - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_value",
+    "description": "Earnings before interest, taxes, depreciation and amortization - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_flag",
+    "description": "Gross income - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptp_number",
+    "description": "Pretax Income - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_az_eps_number",
+    "description": "Earnings per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbve_ft",
+    "description": "Tangible Book Value per Share - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netdebt_flag",
+    "description": "Net debt - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "est_sales",
+    "description": "Sales - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_eps_number",
+    "description": "Earnings per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_flag",
+    "description": "Total Assets - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_number",
+    "description": "Net profit - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_number",
+    "description": "GAAP Earnings per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_capex_high",
+    "description": "Capital Expenditures - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_number",
+    "description": "Free Cash Flow per Share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_number",
+    "description": "Total Assets - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_capex_low",
+    "description": "Capital Expenditures - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_flag",
+    "description": "Free cash flow - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz2lrec_ratingvalue",
+    "description": "Score on the given instrument",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_capex_value",
+    "description": "Capital Expenditures - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_capex_flag",
+    "description": "Capital Expenditures - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_adxqfv110_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsdetailrecv4v104_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsdetailltv4v104_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cfo_value",
+    "description": "Cash Flow From Operations - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dei3lltv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ebitda_flag",
+    "description": "Earnings before interest, taxes, depreciation and amortization - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_low",
+    "description": "Cash Flow From Operations - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bac1detaillt_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_rd_exp_flag",
+    "description": "Research and Development Expense - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconqfv110_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ptp_low",
+    "description": "Pretax income - the lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_low",
+    "description": "Earnings before interest, taxes, depreciation and amortization - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_flag",
+    "description": "Reported Pretax income - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dts_rspe",
+    "description": "Reported Earnings per share - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptp_high",
+    "description": "Pretax income - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_rd_exp_mean",
+    "description": "Research and Development Expense - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_low",
+    "description": "GAAP Earnings per share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_flag",
+    "description": "Cash Flow From Financing Activities - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_high",
+    "description": "Earnings before interest, taxes, depreciation, and amortization - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebit_number",
+    "description": "Earnings before interest and taxes - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_low",
+    "description": "Cash Flow From Financing - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_value",
+    "description": "Free cash flow - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cuo1detailafv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ebit_high",
+    "description": "Earnings before interest and taxes - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_value",
+    "description": "Net profit - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dei2lqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ebit_low",
+    "description": "Earnings before interest and taxes - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_value",
+    "description": "Gross Income - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsactualafv4_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_median_epsreported",
+    "description": "GAAP Earnings per share - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_std",
+    "description": "Gross income - std of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofita_low",
+    "description": "Adjusted net income - the lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsguidanceqfv4_maxguidance",
+    "description": "Max guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1detailrec_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bvps_high",
+    "description": "Book value - the highest estimation, per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bvps_mean",
+    "description": "Book value per share - average of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_flag",
+    "description": "Cash Flow From Operations - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_high",
+    "description": "GAAP Earnings per share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_high",
+    "description": "Cash Flow From Operations - The highest value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cuo1detailqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cfi_low",
+    "description": "Cash Flow From Investing - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bvps_low",
+    "description": "Book value - the lowest estimation, per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofita_number",
+    "description": "Adjusted net income - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_eps_mean",
+    "description": "Earnings per share - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bvps_median",
+    "description": "Book value per share - Median value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_total_rec",
+    "description": "The total number of recommendations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_capex_std",
+    "description": "Capital Expenditures - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfi_flag",
+    "description": "Cash Flow From Investing - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebit_median",
+    "description": "Earnings before interest and taxes - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_low",
+    "description": "Free Cash Flow - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_value",
+    "description": "Total Assets - actual value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_median",
+    "description": "Cash Flow From Operations - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsa_flag",
+    "description": "Earnings per share adjusted by excluding extraordinary items and stock option expenses - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_rd_exp_low",
+    "description": "Research and Development Expense - the lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_low",
+    "description": "Reported Pretax Income - The Lowest Estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tot_gw_ft",
+    "description": "Total Goodwill - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptp_value",
+    "description": "Pretax income - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz2lrec_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_totassets_low",
+    "description": "Total Assets - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_mean",
+    "description": "GAAP Earnings per share - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_epsr_value",
+    "description": "GAAP Earnings per share - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbvps_number",
+    "description": "Tangible Book Value per Share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_flag",
+    "description": "Free cash flow per share - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ffo_flag",
+    "description": "Funds from Operation - forecast type (revision/new/...)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_low",
+    "description": "Gross income - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfi_value",
+    "description": "Cash Flow From Investing - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconafv110_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_gric_number",
+    "description": "Gross income - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_capex_mean",
+    "description": "Capital Expenditures - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_low",
+    "description": "Net Profit - The Lowest Estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconltv110_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_detailrecv4v104_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqfv110_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_hgih_spe",
+    "description": "Earnings per share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsdtlestmtbscqv104_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cfi_high",
+    "description": "Cash Flow From Investing - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_high",
+    "description": "Gross income - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofita_value",
+    "description": "Adjusted net income - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_high",
+    "description": "Cash Flow From Financing - The highest of forecasted values",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsguidanceqfv4_minguidance",
+    "description": "Min guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqfv110_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqfv110_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bvps_number",
+    "description": "Book value per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebit_mean",
+    "description": "Earnings before interest and taxes - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_median",
+    "description": "Net profit - Median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_mean",
+    "description": "Net profit - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_number",
+    "description": "Cash Flow From Operations - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_high",
+    "description": "Net Profit - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptp_mean",
+    "description": "Pretax income - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz2lltv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fcf_median",
+    "description": "Free cash flow - aggregation on estimations, 50th percentile",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dei2laf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_netprofita_high",
+    "description": "Adjusted Net Income - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconqfv110_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ptp_median",
+    "description": "Pretax income - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_high",
+    "description": "Total Assets - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_wol_spe",
+    "description": "Earnings per share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_median",
+    "description": "Gross income - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_hgih_spe",
+    "description": "Earnings per share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsgdncbscv4_minguidance",
+    "description": "Minimum guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_medianepsbfam",
+    "description": "Earnings before interest, taxes, depreciation and amortization - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_adxqfv110_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1conqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_mark",
+    "description": "Recommendation consensus score",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_totassets_mean",
+    "description": "Total Assets - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_azeps",
+    "description": "EPS - aggregation on estimations, 50th percentile",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bvps_value",
+    "description": "Book value per share - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconltv110_pu",
+    "description": "The number of upper estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cff_number",
+    "description": "Cash Flow From Financing - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_az_wol_spe",
+    "description": "Earnings per share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_std",
+    "description": "Total Assets - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_gric_mean",
+    "description": "Gross income - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dei3lafv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_eps",
+    "description": "EPS - aggregation on estimations, 50th percentile",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_dts_spe",
+    "description": "Earnings per share - std of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_value",
+    "description": "Cash Flow From Financing - announced financial value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_median_capexp",
+    "description": "Capital Expenditures - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_high",
+    "description": "Free cash flow - aggregation on estimations, max",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_number",
+    "description": "Earnings before interest, taxes, depreciation and amortization - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_median",
+    "description": "Cash Flow From Financing Activities - Median value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netdebt_mean",
+    "description": "Net debt - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebit_std",
+    "description": "Earnings before interest and taxes - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_number",
+    "description": "Free Cash Flow - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totassets_median",
+    "description": "Total Assets - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsgdncbscv4_maxguidance",
+    "description": "Max guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lafv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_hgih_spfc",
+    "description": "Cash Flow - The highest estimation, per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_mean",
+    "description": "Earnings before interest, taxes, depreciation and amortization - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz2lltv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_hold",
+    "description": "The number of recommendations not clear about short or long the instrument",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_netprofita_mean",
+    "description": "Adjusted net income - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailafv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_dts_spe",
+    "description": "Earnings per share - std of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_cfps_mean",
+    "description": "Cash Flow Per Share - average of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cuo1actualqfv110_actual",
+    "description": "Announced financial data",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_numest",
+    "description": "The number of forecasts counted in aggregation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "est_dividend_ps",
+    "description": "Dividend per share - average of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz1laf_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_capex_number",
+    "description": "Capital Expenditures - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "est_cashflow_ps",
+    "description": "Cash Flow Per Share - average of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbvps_low",
+    "description": "Tangible Book Value per Share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfi_median",
+    "description": "Cash Flow From Investing - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfo_mean",
+    "description": "Cash Flow From Operations - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbvps_mean",
+    "description": "Tangible Book Value per Share - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cff_mean",
+    "description": "Cash Flow From Financing - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcf_mean",
+    "description": "Free Cash Flow - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cfi_number",
+    "description": "Cash Flow From Investing - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dez1basicqfv4v104_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cfi_mean",
+    "description": "Cash Flow From Investing - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dts_ptp",
+    "description": "Pretax income - std of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_high",
+    "description": "Free Cash Flow Per Share - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailqfv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1detailafv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_netprofita_median",
+    "description": "Adjusted net income - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netdebt_low",
+    "description": "Net debt - the lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dei3lqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetailrec_ratingvalue",
+    "description": "Score on the given instrument",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_totgw_number",
+    "description": "Total Goodwill - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_eaz1laf_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_baz1v110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsdtlestmtbscv104_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dei3lrec_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_buy",
+    "description": "The number of recommendations to long the instrument",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_cfps_median",
+    "description": "Cash Flow Per Share - Median value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_rd_exp_high",
+    "description": "Research and Development Expense - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_median",
+    "description": "Free cash flow - summary on estimations, 50th-percentile, per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_adxqfv110_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dez1basicqfv4v104_preest",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_rd_exp_number",
+    "description": "Research and Development Expense - Number of Estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_mean",
+    "description": "Reported Pretax income - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_high",
+    "description": "Reported pretax income - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofita_std",
+    "description": "Adjusted net income - std of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ptpr_median",
+    "description": "Reported pretax income - Median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totgw_mean",
+    "description": "Total Goodwill - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ebitda_std",
+    "description": "Earnings before interest, taxes, depreciation, and amortization - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_low",
+    "description": "Free Cash Flow Per Share - the lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netdebt_number",
+    "description": "Net debt - Number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fcfps_mean",
+    "description": "Free cash flow per share - mean of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netprofit_std",
+    "description": "Net profit - standard deviation of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_az_hgih_spfc",
+    "description": "Cash Flow - The highest estimation, per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_rd_exp_median",
+    "description": "Research and Development Expense - Median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconltv110_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lrec_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_cfps_median",
+    "description": "Cash Flow Per Share - Median value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_totgw_high",
+    "description": "Total Goodwill - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbvps_median",
+    "description": "Tangible Book Value per Share - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailafv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ads1detailqfv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_totgw_low",
+    "description": "Total Goodwill - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailqfv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1lqfv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconltv110_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsguidanceafv4_maxguidance",
+    "description": "Maximum guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_totgw_median",
+    "description": "Total Goodwill - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailqfv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1detailqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_wol_spfc",
+    "description": "Cash Flow Per Share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_tbvps_high",
+    "description": "Tangible Book Value per Share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_bac1actualqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_netdebt_median",
+    "description": "Net Debt - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_fsactualqfv4_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1actualqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conafv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_hgih_vid",
+    "description": "Dividend per share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_netdebt_high",
+    "description": "Net debt - the highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_ads1detailafv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsguidanceafv4_minguidance",
+    "description": "Min guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetaillt_prevval",
+    "description": "The Previous Estimation of Financial Item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lqfv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_ads1detailafv110_prevval",
+    "description": "The Previous Estimation of Financial Item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_wol_spfc",
+    "description": "Cash Flow Per Share - The lowest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_az_hgih_vid",
+    "description": "Dividend per share - The highest estimation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qfd1_az_div_median",
+    "description": "Dividend per share - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_cuo1conafv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetaillt_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1lqfv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lqfv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_detailltv4v104_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_cfps_number",
+    "description": "Cash Flow Per Share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_wol_vid",
+    "description": "Dividend per share - The lowest value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_baz1v110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lqfv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_wol_vid",
+    "description": "Dividend per share - The lowest value among forecasts",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_dez1basicafv4v104_est",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_baz1v110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lltv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_detailltv4v104_preest",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_under",
+    "description": "The number of Underweight recommendations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conrecv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetaillt_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_cfps_number",
+    "description": "Cash Flow Per Share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicdetailrec_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconltv110_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qfd1_az_div_number",
+    "description": "Dividend per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_qf_az_div_median",
+    "description": "Dividend per share - median of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconltv110_down",
+    "description": "Number of lower estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqfv110_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lqfv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsactualqfv4_actual",
+    "description": "Announced financial data",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconltv110_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_div_mean",
+    "description": "Dividend per share - average of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicconqfv110_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetailrec_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conqfv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_dez1basicafv4v104_preest",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1guidaf_minguidance",
+    "description": "Minimum guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconqfv110_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqfv110_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_fsactualafv4_actual",
+    "description": "Announced financial data",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetailqfv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_qf_az_div_number",
+    "description": "Dividend per share - number of estimations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "anl4_basicdetailqfv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetailqfv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetaillt_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1guidaf_maxguidance",
+    "description": "Max guidance value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqfv110_median",
+    "description": "Median of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_high",
+    "description": "The highest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicconafv110_low",
+    "description": "The lowest estimation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_baz1v110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_basicdetailqfv110_bk",
+    "description": "Broker name (int)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1actualqfv110_actual",
+    "description": "Announced financial data",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lafv110_person",
+    "description": "Broker Id",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lltv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_norec",
+    "description": "The number of brokers with no recommendation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1laf_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lafv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_adxqfv110_mean",
+    "description": "Mean of estimations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1lqfv110_estvalue",
+    "description": "Estimation value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1lqfv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz2lafv110_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_cuo1guidaf_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_bac1conltv110_item",
+    "description": "Financial item",
+    "type": "VECTOR"
+  },
+  {
+    "id": "anl4_eaz1laf_prevval",
+    "description": "The previous estimation of financial item",
+    "type": "VECTOR"
+  }
+]

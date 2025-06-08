@@ -1,0 +1,12 @@
+[
+  {
+    "id": "snt_social_volume",
+    "description": "Normalized tweet volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "snt_social_value",
+    "description": "Z score of sentiment",
+    "type": "MATRIX"
+  }
+]

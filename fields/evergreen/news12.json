@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "nws12_afterhsz_sl",
+    "description": "Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS = 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_cap",
+    "description": "Reported market capitalization for the calendar day of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_10_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 10 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_atr14",
+    "description": "14-day Average True Range",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_atr_ratio",
+    "description": "Ratio of today's range to 20-day average true range",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_10_pct_up",
+    "description": "Number of minutes that elapsed before price went up 10 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_close_vol",
+    "description": "Main close volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_eod_high",
+    "description": "Highest price reached between the time of news and the end of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pe_ratio",
+    "description": "Reported price-to-earnings ratio for the calendar day of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_eod_close",
+    "description": "Close price of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_max_dn_amt",
+    "description": "The price at the time of the news minus the after the news low",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_10_chg",
+    "description": "The minimum of L or S above for 10-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_all_vwap",
+    "description": "Volume weighted average price of all sessions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_tot_ticks",
+    "description": "Total number of ticks for the trading day",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_prez_4l",
+    "description": "Number of minutes that elapsed before price went up 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_eps_actual",
+    "description": "The actual Earnings Per Share value that was conveyed by the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_indx_perf",
+    "description": "((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_spy_close",
+    "description": "Price of SPY at close of session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_high_exc_stddev",
+    "description": "(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_5_chg",
+    "description": "The minimum of L or S above for 5-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_120min",
+    "description": "The percent change in price in the first 120 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_session_range",
+    "description": "Session High Price - Session Low Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_low_exc_stddev",
+    "description": "(TONLast - EODLow) / StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_max_up_amt",
+    "description": "The after the news high minus the price at the time of the news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_vol_stddev",
+    "description": "(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_main_vwap",
+    "description": "Main session volume weighted average price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_eod_low",
+    "description": "Lowest price reached between the time of news and the end of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_eod_vwap",
+    "description": "Volume weighted average price between the time of news and the end of the session",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_7_5_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 7.5 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_open",
+    "description": "Price at the session open",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_max_dn_ret",
+    "description": "Percent change from the price at the time of the news to the after the news low",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_ls",
+    "description": "Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS= 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mov_vol",
+    "description": "30 day moving average session volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_curr_vol",
+    "description": "Current day's session volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_5_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 5 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_spy_last",
+    "description": "Last Price of the SPY at the time of the news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_20_chg",
+    "description": "The minimum of L or S above for 20-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_max_up_ret",
+    "description": "Percent change from the price at the time of the news to the after the news high",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_ratio_vol",
+    "description": "Curr_Vol / Mov_Vol",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_1_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 1 percentage point",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_3_pct_up",
+    "description": "Number of minutes that elapsed before price went up 3 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_range_stddev",
+    "description": "(RangeAmt - AvgRange) / RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_1_chg",
+    "description": "The minimum of L or S above for 1-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_90min",
+    "description": "The percent change in price in the first 90 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_ton_last",
+    "description": "Price at the time of news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_post_vwap",
+    "description": "Post-session volume-weighted average price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_7_5_pct_up",
+    "description": "Number of minutes that elapsed before price went up 7.5 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_10min",
+    "description": "The percent change in price in the first 10 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_ton_high",
+    "description": "Highest price reached during the session before the time of news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_60min",
+    "description": "The percent change in price in the first 60 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_20_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 20 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_5_pct_up",
+    "description": "Number of minutes that elapsed before price went up 5 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_prev_vol",
+    "description": "Previous day's session volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_7_5_chg",
+    "description": "The minimum of L or S above for 7.5-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_1min",
+    "description": "The percent change in price in the first minute following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_30min",
+    "description": "The percent change in price in the first 30 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_2_pct_up",
+    "description": "Number of minutes that elapsed before price went up 2 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_ton_low",
+    "description": "Lowest price reached during the session before the time of the news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_1_pct_up",
+    "description": "Number of minutes that elapsed before price went up 1 percentage point",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_session_range_pct",
+    "description": "(Session High Price - Session Low Price) / Session Low Price.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_4_pct_up",
+    "description": "Number of minutes that elapsed before price went up 4 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_prez_result2",
+    "description": "Percent change between the price at the time of the news release to the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_prev_day_ret",
+    "description": "Percent change between the previous day's open and close",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_dividend_yield",
+    "description": "Annual yield",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_allz_newrecord",
+    "description": "Tracks whether the news is first instance or a duplicate",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_mins_3_chg",
+    "description": "The minimum of L or S above for 3-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_4_chg",
+    "description": "The minimum of L or S above for 4-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_open_gap",
+    "description": "(DayOpen - PrevClose) / PrevClose",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_2_chg",
+    "description": "The minimum of L or S above for 2-minute bucket",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pct_30sec",
+    "description": "The percent change in price in the 30 seconds following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_3_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 3 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_prev_close",
+    "description": "Previous trading day's close price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_pre_vwap",
+    "description": "Pre-session volume weighted average price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_mins_20_pct_up",
+    "description": "Number of minutes that elapsed before price went up 20 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "news_short_interest",
+    "description": "Total number of shares sold short divided by total number of shares outstanding",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_prez_57p",
+    "description": "The minimum of L or S above for 7.5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_mins_4_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 4 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_afterhsz_10_min",
+    "description": "The percent change in price in the first 10 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_open_vol",
+    "description": "Main open volume",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_prez_57l",
+    "description": "Number of minutes that elapsed before price went up 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_mins_2_pct_dn",
+    "description": "Number of minutes that elapsed before price went down 2 percentage points",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_afterhsz_57s",
+    "description": "Number of minutes that elapsed before price went down 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "news_pct_5_min",
+    "description": "The percent change in price in the first 5 minutes following the news release",
+    "type": "MATRIX"
+  },
+  {
+    "id": "nws12_mainz_01p",
+    "description": "The minimum of L or S above for 10-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_01l",
+    "description": "Number of minutes that elapsed before price went up 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_5l",
+    "description": "Number of minutes that elapsed before price went up 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_3l",
+    "description": "Number of minutes that elapsed before price went up 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_result1",
+    "description": "Percent change between the price at the time of the news release to the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_result_vs_index",
+    "description": "((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_1s",
+    "description": "Number of minutes that elapsed before price went down 1 percentage point",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_3s",
+    "description": "Number of minutes that elapsed before price went down 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_3p",
+    "description": "The minimum of L or S above for 3-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_lowexcstddev",
+    "description": "(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_2l",
+    "description": "Number of minutes that elapsed before price went up 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_01l",
+    "description": "Number of minutes that elapsed before price went up 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_2p",
+    "description": "The minimum of L or S above for 2-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_01l",
+    "description": "Number of minutes that elapsed before price went up 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_01s",
+    "description": "Number of minutes that elapsed before price went down 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_4l",
+    "description": "Number of minutes that elapsed before price went up 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_newssess",
+    "description": "Index of session in which the news was reported",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_result2",
+    "description": "Percent change between the price at the time of the news release to the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_range",
+    "description": "Session High Price - Session Low Price) / Session Low Price.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_mov_vol",
+    "description": "30-day moving average session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_tonhigh",
+    "description": "Highest price reached during the session before the time of news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_120_min",
+    "description": "The percent change in price in the first 120 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_1l",
+    "description": "Number of minutes that elapsed before price went up 1 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_4p",
+    "description": "The minimum of L or S above for 4-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_5l",
+    "description": "Number of minutes that elapsed before price went up 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_newssess",
+    "description": "Index of session in which the news was reported",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_1_minute",
+    "description": "The percent change in price in the first minute following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_5s",
+    "description": "Number of minutes that elapsed before price went down 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_4p",
+    "description": "The minimum of L or S above for 4-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_highexcstddev",
+    "description": "(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_sl",
+    "description": "Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS = 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_1l",
+    "description": "Number of minutes that elapsed before price went up 1 percentage point",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_allticks",
+    "description": "Total number of ticks for the trading day",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_volstddev",
+    "description": "(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_01s",
+    "description": "Number of minutes that elapsed before price went down 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_1p",
+    "description": "The minimum of L or S above for 1-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_3l",
+    "description": "Number of minutes that elapsed before price went up 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_4s",
+    "description": "Number of minutes that elapsed before price went down 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_result_vs_index",
+    "description": "((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_mov_vol",
+    "description": "30-day moving average session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_atrratio",
+    "description": "Ratio of Today Range to 20-day average true range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_maxup",
+    "description": "Percent change from the price at the time of the news to the after the news high",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_2s",
+    "description": "Number of minutes that elapsed before price went down 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_4s",
+    "description": "Number of minutes that elapsed before price went down 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_allvwap",
+    "description": "Volume weighted average price of all sessions",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_57l",
+    "description": "Number of minutes that elapsed before price went up 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_allz_newssess",
+    "description": "Index of session in which the news was reported",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_curr_vol",
+    "description": "Current day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_rangestddev",
+    "description": "(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_newrecord",
+    "description": "Tracks whether the news is the first instance or a duplicate",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_spylast",
+    "description": "Last Price of the SPY at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_3s",
+    "description": "Number of minutes that elapsed before price went down 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_5p",
+    "description": "The minimum of L or S above for 5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_01s",
+    "description": "Number of minutes that elapsed before price went down 10 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_2p",
+    "description": "The minimum of L or S above for 2 minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_prev_vol",
+    "description": "Previous day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_allz_provider",
+    "description": "index of name of the news provider",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_57l",
+    "description": "Number of minutes that elapsed before price went up 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_3l",
+    "description": "Number of minutes that elapsed before price went up 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_lowexcstddev",
+    "description": "(TONLast - EODLow)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_5p",
+    "description": "The minimum of L or S above for 5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_prevday",
+    "description": "Percent change between the previous day's open and close",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_sl",
+    "description": "Whether a long or short position would have been more advantageous: If (EODHigh - Last) > (Last - EODLow) Then LS = 1; If (EODHigh - Last) = (Last - EODLow) Then LS = 0; If (EODHigh - Last) < (Last - EODLow) Then LS = -1.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_4s",
+    "description": "Number of minutes that elapsed before price went down 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_57s",
+    "description": "Number of minutes that elapsed before price went down 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_4l",
+    "description": "Number of minutes that elapsed before price went up 4 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_spyclose",
+    "description": "Price of SPY at close of session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_1p",
+    "description": "The minimum of L or S above for 1-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_opengap",
+    "description": "(DayOpen - PrevClose) / PrevClose.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_allticks",
+    "description": "Total number of ticks for the trading day",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_allz_result1",
+    "description": "Percent change between the price at the time of the news release and the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_close_vol",
+    "description": "Main close volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_reportsess",
+    "description": "Index of Session on which the spreadsheet is reporting",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_5_min",
+    "description": "The percent change in price in the first 5 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_spyclose",
+    "description": "Price of SPY at close of session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_provider",
+    "description": "index of name of the news provider",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_vol_ratio",
+    "description": "Curr_Vol / Mov_Vol",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_2l",
+    "description": "Number of minutes that elapsed before price went up 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_epsactual",
+    "description": "The actual Earnings Per Share value that was conveyed by the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_01p",
+    "description": "The minimum of L or S above for 10 minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_volstddev",
+    "description": "(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_mktcap",
+    "description": "Reported market capitalization for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_short_interest",
+    "description": "Total number of shares sold short divided by total number of shares outstanding",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_tonlast",
+    "description": "Price at the time of news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_mainvwap",
+    "description": "Main session volume-weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_result1",
+    "description": "Percent change between the price at the time of the news release to the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_02l",
+    "description": "Number of minutes that elapsed before price went up 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_result_vs_index",
+    "description": "((EODClose - TONLast) / TONLast) - ((SPYClose - SPYLast) / SPYLast)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_maxdnamt",
+    "description": "The price at the time of the news minus the after the news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_5s",
+    "description": "Number of minutes that elapsed before price went down 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_mktcap",
+    "description": "Reported market capitalization for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_short_interest",
+    "description": "Total number of shares sold short divided by total number of shares outstanding",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_57p",
+    "description": "The minimum of L or S above for 7.5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_highexcstddev",
+    "description": "(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_curr_vol",
+    "description": "Current day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_maxdown",
+    "description": "Percent change from the price at the time of the news to the after the news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_result1",
+    "description": "Percent change between the price at the time of the news release and the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_2s",
+    "description": "Number of minutes that elapsed before price went down 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_41rta",
+    "description": "14-day Average True Range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_1s",
+    "description": "Number of minutes that elapsed before price went down 1 percentage point",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_2l",
+    "description": "Number of minutes that elapsed before price went up 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_60_min",
+    "description": "The percent change in price in the first 60 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_prevclose",
+    "description": "Previous trading day's close price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_provider",
+    "description": "index of name of the news provider",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_5_min",
+    "description": "The percent change in price in the first 5 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_allz_reportsess",
+    "description": "Index of Session on which the spreadsheet is reporting",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_1l",
+    "description": "Number of minutes that elapsed before price went up 1 percentage point",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_opengap",
+    "description": "(DayOpen - PrevClose) / PrevClose",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_atrratio",
+    "description": "Ratio of Today Range to 20-day average true range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_2s",
+    "description": "Number of minutes that elapsed before price went down 2 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_newrecord",
+    "description": "Tracks whether the news is first instance or a duplicate",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_30_seconds",
+    "description": "The percent change in price in the 30 seconds following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_provider",
+    "description": "index of name of the news provider",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_peratio",
+    "description": "Reported price to earnings ratio for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_eodvwap",
+    "description": "Volume weighted average price between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_vol_ratio",
+    "description": "Curr_Vol / Mov_Vol",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_maxup",
+    "description": "Percent change from the price at the time of the news to the after the news high",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_volstddev",
+    "description": "(CurrentVolume - AvgVol)/VolStDev, where AvgVol is the average of the daily volume, and VolStdDev is one standard deviation for the daily volume, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_eodclose",
+    "description": "Close price of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_prevclose",
+    "description": "Previous trading day's close price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_rangeamt",
+    "description": "Session High Price - Session Low Price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_lowexcstddev",
+    "description": "(TONLast - EODLow) / StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_atrratio",
+    "description": "Ratio of Today Range to 20-day average true range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_mov_vol",
+    "description": "30-day moving average session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_allz_result2",
+    "description": "Percent change between the price at the time of the news release and the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_dayopen",
+    "description": "Price at the session open",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_30_seconds",
+    "description": "The percent change in price in the 30 seconds following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_dayopen",
+    "description": "Price at the session open",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_spyclose",
+    "description": "Price of SPY at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_peratio",
+    "description": "Reported price-to-earnings ratio for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_opengap",
+    "description": "(DayOpen - PrevClose) / PrevClose.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_prevday",
+    "description": "Percent change between the previous day's open and close",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_3p",
+    "description": "The minimum of L or S above for 3-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_prevday",
+    "description": "Percent change between the previous day's open and close",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_3s",
+    "description": "Number of minutes that elapsed before price went down 3 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_vol_ratio",
+    "description": "Curr_Vol / Mov_Vol",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_30_min",
+    "description": "The percent change in price in the first 30 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_eodclose",
+    "description": "Close price of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_range",
+    "description": "Session High Price - Session Low Price) / Session Low Price.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_short_interest",
+    "description": "Total number of shares sold short divided by total number of shares outstanding",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_1s",
+    "description": "Number of minutes that elapsed before price went down 1 percentage point",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_90_min",
+    "description": "The percent change in price in the first 90 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_maxupamt",
+    "description": "The after the news high minus the price at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_spylast",
+    "description": "Last Price of the SPY at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_5s",
+    "description": "Number of minutes that elapsed before price went down 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_02l",
+    "description": "Number of minutes that elapsed before price went up 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_41rta",
+    "description": "Fourteen-day Average True Range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_spylast",
+    "description": "Last Price of the SPY at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_5l",
+    "description": "Number of minutes that elapsed before price went up 5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_02s",
+    "description": "Number of minutes that elapsed before price went down 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_curr_vol",
+    "description": "Current day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_1p",
+    "description": "The minimum of L or S above for 1-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_57s",
+    "description": "Number of minutes that elapsed before price went down 7.5 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_maxdown",
+    "description": "Percent change from the price at the time of the news to the after-the-news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_rangeamt",
+    "description": "Session High Price - Session Low Price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_tonlow",
+    "description": "Lowest price reached during the session before the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_01p",
+    "description": "The minimum of L or S above for 10-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_highexcstddev",
+    "description": "(EODHigh - TONLast)/StdDev, where StdDev is one standard deviation for the close price for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_prev_vol",
+    "description": "Previous day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_10_min",
+    "description": "The percent change in price in the first 10 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_4p",
+    "description": "The minimum of L or S above for 4 minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_2p",
+    "description": "The minimum of L or S above for 2-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_02p",
+    "description": "The minimum of L or S above for 20-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_30_min",
+    "description": "The percent change in price in the first 30 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_120_min",
+    "description": "The percent change in price in the first 120 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_5_min",
+    "description": "The percent change in price in the first 5 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_prev_vol",
+    "description": "Previous day's session volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_tonlast",
+    "description": "Price at the time of news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_57p",
+    "description": "The minimum of L or S above for 7.5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_3p",
+    "description": "The minimum of L or S above for 3-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_90_min",
+    "description": "The percent change in price in the first 90 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_range",
+    "description": "Session High Price - Session Low Price) / Session Low Price.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_prevclose",
+    "description": "Previous trading day's close price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_tonlast",
+    "description": "Price at the time of news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_mktcap",
+    "description": "Reported market capitalization for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_rangestddev",
+    "description": "(RangeAmt - AvgRange) / RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_epsactual",
+    "description": "The actual Earnings Per Share value that was conveyed by the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_maxupamt",
+    "description": "The after-the-news high minus the price at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_tonhigh",
+    "description": "Highest price reached during the session before the time of news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_60_min",
+    "description": "The percent change in price in the first 60 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_02p",
+    "description": "The minimum of L or S above for 20-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_epsactual",
+    "description": "The actual Earnings Per Share value that was conveyed by the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_eodlow",
+    "description": "Lowest price reached between the time of news and the end of the session.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_dayopen",
+    "description": "Price at the session open",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_tonlow",
+    "description": "Lowest price reached during the session before the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_1_minute",
+    "description": "The percent change in price in the first minute following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_120_min",
+    "description": "The percent change in price in the first 120 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_maxupamt",
+    "description": "The after-the-news high minus the price at the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_rangestddev",
+    "description": "(RangeAmt-AvgRange)/RangeStdDev, where AvgRange is the average of the daily range, and RangeStdDev is one standard deviation for the daily range, both for 30 calendar days",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_60_min",
+    "description": "The percent change in price in the first 60 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_eodlow",
+    "description": "Lowest price reached between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_5p",
+    "description": "The minimum of L or S above for 5-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_eodhigh",
+    "description": "Highest price reached between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_newrecord",
+    "description": "Tracks whether the news is first instance or a duplicate",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_result2",
+    "description": "Percent change between the price at the time of the news release to the price at the close of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_30_min",
+    "description": "The percent change in price in the first 30 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_maxdown",
+    "description": "Percent change from the price at the time of the news to the after the news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_90_min",
+    "description": "The percent change in price in the first 90 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_02p",
+    "description": "The minimum of L or S above for 20-minute bucket",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_1_minute",
+    "description": "The percent change in price in the first minute following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_newssess",
+    "description": "Index of the session in which the news was reported",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_postvwap",
+    "description": "Post-session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_postvwap",
+    "description": "Post-session volume-weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_tonlow",
+    "description": "Lowest price reached during the session before the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_02l",
+    "description": "Number of minutes that elapsed before price went up 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_reportsess",
+    "description": "Index of Session on which the spreadsheet is reporting",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_eodclose",
+    "description": "Close price of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_open_vol",
+    "description": "Main open volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_prevwap",
+    "description": "Pre-session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_tonhigh",
+    "description": "Highest price reached during the session before the time of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_reportsess",
+    "description": "Index of Session on which the spreadsheet is reporting",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_02s",
+    "description": "Number of minutes that elapsed before price went down 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_div_y",
+    "description": "Annual yield",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_eodhigh",
+    "description": "Highest price reached between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_eodvwap",
+    "description": "volume weighted average price between the time of news and the end of the session.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_maxdnamt",
+    "description": "The price at the time of the news minus the after the news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_maxup",
+    "description": "Percent change from the price at the time of the news to the after the news high",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_10_min",
+    "description": "The percent change in price in the first 10 minutes following the news release",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_maxdnamt",
+    "description": "The price at the time of the news minus the after the news low",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_rangeamt",
+    "description": "Session High Price - Session Low Price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_02s",
+    "description": "Number of minutes that elapsed before price went down 20 percentage points",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_div_y",
+    "description": "Annual yield",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_open_vol",
+    "description": "Main open volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_close_vol",
+    "description": "Main close volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_mainvwap",
+    "description": "Main session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_open_vol",
+    "description": "Main open volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_close_vol",
+    "description": "Main close volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_peratio",
+    "description": "Reported price to earnings ratio for the calendar day of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_41rta",
+    "description": "14-day Average True Range",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_eodhigh",
+    "description": "Highest price reached between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_eodlow",
+    "description": "Lowest price reached between the time of news and the end of the session.",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_allticks",
+    "description": "Total number of ticks for the trading day",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_eodvwap",
+    "description": "Volume-weighted average price between the time of news and the end of the session",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_prevwap",
+    "description": "Pre session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_prez_div_y",
+    "description": "Annual yield",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_mainvwap",
+    "description": "Main session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_postvwap",
+    "description": "Post session volume weighted average price",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_mainz_allvwap",
+    "description": "Volume weighted average price of all sessions",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws12_afterhsz_prevwap",
+    "description": "Pre session volume weighted average price",
+    "type": "VECTOR"
+  }
+]

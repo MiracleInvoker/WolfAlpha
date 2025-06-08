@@ -1,0 +1,307 @@
+[
+  {
+    "id": "rp_css_business",
+    "description": "Composite sentiment score of business-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_inverstor",
+    "description": "News impact projection of investor relations news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_inverstor",
+    "description": "Composite sentiment score of investor relations news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_credit_ratings",
+    "description": "Composite sentiment score of credit ratings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_earnings",
+    "description": "Event sentiment score of earnings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_earnings",
+    "description": "Composite sentiment score of earnings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_business",
+    "description": "News impact projection of business-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_business",
+    "description": "Event sentiment score of business-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_earnings",
+    "description": "News impact projection of earnings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_assets",
+    "description": "Composite sentiment score of assets news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_price",
+    "description": "Composite sentiment score of stock price news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_revenue",
+    "description": "Composite sentiment score of revenue news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_mna",
+    "description": "Event sentiment score of mergers and acquisitions-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_price",
+    "description": "Event sentiment score of stock price news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_equity",
+    "description": "News impact projection of equity action news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_equity",
+    "description": "Composite sentiment score of equity action news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_mna",
+    "description": "Composite sentiment score of mergers and acquisitions-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_assets",
+    "description": "News impact projection of assets news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_product",
+    "description": "News impact projection of product and service-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_insider",
+    "description": "News impact projection of insider trading news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_marketing",
+    "description": "News impact projection of marketing news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_product",
+    "description": "Event sentiment score of product and service-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_insider",
+    "description": "Composite sentiment score of insider trading news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_marketing",
+    "description": "Composite sentiment score of marketing news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_ratings",
+    "description": "Event sentiment score of analyst ratings-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_product",
+    "description": "Composite sentiment score of product and service-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_price",
+    "description": "News impact projection of stock price news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_revenue",
+    "description": "Event sentiment score of revenue news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_revenue",
+    "description": "News impact projection of revenue news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_partner",
+    "description": "Event sentiment score of partnership news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_insider",
+    "description": "Event sentiment score of insider trading news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_ratings",
+    "description": "News impact projection of analyst ratings-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_mna",
+    "description": "News impact projection of mergers and acquisitions-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_ratings",
+    "description": "Composite sentiment score of analyst ratings-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_equity",
+    "description": "Event sentiment score of equity action news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_assets",
+    "description": "Event sentiment score of assets news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_labor",
+    "description": "Event sentiment score of labor issues news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_labor",
+    "description": "Composite sentiment score of labor issues news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_partner",
+    "description": "Composite sentiment score of partnership news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_labor",
+    "description": "News impact projection of labor issues news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_ptg",
+    "description": "Composite sentiment score of price target news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_partner",
+    "description": "News impact projection of partnership news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_credit",
+    "description": "Composite sentiment score of credit news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_legal",
+    "description": "Event sentiment score of legal news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_dividends",
+    "description": "Composite sentiment score of dividends news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_ptg",
+    "description": "News impact projection of price target news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_ptg",
+    "description": "Event sentiment score of price target news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_legal",
+    "description": "Composite sentiment score of legal news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_dividends",
+    "description": "News impact projection of dividends news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_society",
+    "description": "Event sentiment score of society-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_society",
+    "description": "News impact projection of society-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_legal",
+    "description": "News impact projection of legal news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_credit",
+    "description": "News impact projection of credit news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_technical",
+    "description": "News impact projection based on technical analysis",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_society",
+    "description": "Composite sentiment score of society-related news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_credit_ratings",
+    "description": "Event sentiment score of credit ratings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_css_technical",
+    "description": "Composite sentiment score based on technical analysis",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_dividends",
+    "description": "Event sentiment score of dividends news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_technical",
+    "description": "Event sentiment score based on technical analysis",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_nip_credit_ratings",
+    "description": "News impact projection of credit ratings news",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rp_ess_credit",
+    "description": "Event sentiment score of credit news",
+    "type": "MATRIX"
+  }
+]

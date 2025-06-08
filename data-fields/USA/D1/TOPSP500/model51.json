@@ -1,0 +1,386 @@
+[
+  {
+    "id": "unsystematic_risk_last_30_days",
+    "description": "Unsystematic Risk Last 30 Days - Relative to SPY",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7757,
+    "userCount": 2,
+    "alphaCount": 11,
+    "themes": []
+  },
+  {
+    "id": "beta_last_60_days_spy",
+    "description": "Beta to SPY in 60 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7796,
+    "userCount": 7,
+    "alphaCount": 8,
+    "themes": []
+  },
+  {
+    "id": "correlation_last_60_days_spy",
+    "description": "Correlation to SPY in 60 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7796,
+    "userCount": 1,
+    "alphaCount": 8,
+    "themes": []
+  },
+  {
+    "id": "systematic_risk_last_90_days",
+    "description": "Systematic Risk Last 90 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7736,
+    "userCount": 1,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "unsystematic_risk_last_90_days",
+    "description": "Unsystematic Risk Last 90 Days - Relative to SPY",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7736,
+    "userCount": 2,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "beta_last_90_days_spy",
+    "description": "Beta to SPY in 90 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7782,
+    "userCount": 3,
+    "alphaCount": 3,
+    "themes": []
+  },
+  {
+    "id": "beta_last_30_days_spy",
+    "description": "Beta to SPY in 30 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7803,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "beta_last_360_days_spy",
+    "description": "Beta to SPY in 360 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7605,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "unsystematic_risk_last_360_days",
+    "description": "Unsystematic Risk Last 360 Days - Relative to SPY",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7561,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "correlation_last_90_days_spy",
+    "description": "Correlation to SPY in 90 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7782,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "systematic_risk_last_360_days",
+    "description": "Systematic Risk Last 360 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7561,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "unsystematic_risk_last_60_days",
+    "description": "Unsystematic Risk Last 60 Days - Relative to SPY",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.775,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "correlation_last_30_days_spy",
+    "description": "Correlation to SPY in 30 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7803,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "correlation_last_360_days_spy",
+    "description": "Correlation to SPY in 360 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7605,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "systematic_risk_last_30_days",
+    "description": "Systematic Risk Last 30 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.7757,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "systematic_risk_last_60_days",
+    "description": "Systematic Risk Last 60 Days",
+    "dataset": {
+      "id": "model51",
+      "name": "Systematic Risk Metrics"
+    },
+    "category": {
+      "id": "model",
+      "name": "Model"
+    },
+    "subcategory": {
+      "id": "model-risk-models",
+      "name": "Risk Models"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 0.775,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

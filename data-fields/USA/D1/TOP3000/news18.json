@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "rp_css_business",
+    "description": "Composite sentiment score of business-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 434,
+    "alphaCount": 1608,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_inverstor",
+    "description": "News impact projection of investor relations news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9284,
+    "userCount": 246,
+    "alphaCount": 1270,
+    "themes": []
+  },
+  {
+    "id": "rp_css_inverstor",
+    "description": "Composite sentiment score of investor relations news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9284,
+    "userCount": 213,
+    "alphaCount": 1088,
+    "themes": []
+  },
+  {
+    "id": "rp_css_credit_ratings",
+    "description": "Composite sentiment score of credit ratings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.223,
+    "userCount": 102,
+    "alphaCount": 935,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_earnings",
+    "description": "Event sentiment score of earnings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9766,
+    "userCount": 256,
+    "alphaCount": 921,
+    "themes": []
+  },
+  {
+    "id": "rp_css_earnings",
+    "description": "Composite sentiment score of earnings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9766,
+    "userCount": 202,
+    "alphaCount": 802,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_business",
+    "description": "News impact projection of business-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 166,
+    "alphaCount": 800,
+    "themes": []
+  },
+  {
+    "id": "nws18_ghc_lna",
+    "description": "Change in analyst recommendation",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 143,
+    "alphaCount": 761,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_business",
+    "description": "Event sentiment score of business-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 148,
+    "alphaCount": 645,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_earnings",
+    "description": "News impact projection of earnings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.9766,
+    "userCount": 138,
+    "alphaCount": 625,
+    "themes": []
+  },
+  {
+    "id": "rp_css_assets",
+    "description": "Composite sentiment score of assets news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7442,
+    "userCount": 231,
+    "alphaCount": 623,
+    "themes": []
+  },
+  {
+    "id": "nws18_nip",
+    "description": "Degree of impact of the news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 76,
+    "alphaCount": 617,
+    "themes": []
+  },
+  {
+    "id": "rp_css_price",
+    "description": "Composite sentiment score of stock price news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8355,
+    "userCount": 176,
+    "alphaCount": 568,
+    "themes": []
+  },
+  {
+    "id": "rp_css_revenue",
+    "description": "Composite sentiment score of revenue news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.941,
+    "userCount": 148,
+    "alphaCount": 560,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_mna",
+    "description": "Event sentiment score of mergers and acquisitions-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6798,
+    "userCount": 208,
+    "alphaCount": 541,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_price",
+    "description": "Event sentiment score of stock price news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8355,
+    "userCount": 109,
+    "alphaCount": 525,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_equity",
+    "description": "News impact projection of equity action news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8631,
+    "userCount": 127,
+    "alphaCount": 495,
+    "themes": []
+  },
+  {
+    "id": "rp_css_equity",
+    "description": "Composite sentiment score of equity action news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8631,
+    "userCount": 134,
+    "alphaCount": 468,
+    "themes": []
+  },
+  {
+    "id": "rp_css_mna",
+    "description": "Composite sentiment score of mergers and acquisitions-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6798,
+    "userCount": 120,
+    "alphaCount": 449,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_assets",
+    "description": "News impact projection of assets news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7442,
+    "userCount": 102,
+    "alphaCount": 436,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_product",
+    "description": "News impact projection of product and service-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7644,
+    "userCount": 84,
+    "alphaCount": 422,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_insider",
+    "description": "News impact projection of insider trading news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6707,
+    "userCount": 92,
+    "alphaCount": 416,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_marketing",
+    "description": "News impact projection of marketing news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3643,
+    "userCount": 82,
+    "alphaCount": 412,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_product",
+    "description": "Event sentiment score of product and service-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7644,
+    "userCount": 123,
+    "alphaCount": 411,
+    "themes": []
+  },
+  {
+    "id": "rp_css_insider",
+    "description": "Composite sentiment score of insider trading news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6707,
+    "userCount": 118,
+    "alphaCount": 403,
+    "themes": []
+  },
+  {
+    "id": "nws18_qep",
+    "description": "News sentiment based on positive and negative words on global equity",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 68,
+    "alphaCount": 399,
+    "themes": []
+  },
+  {
+    "id": "nws18_ssc",
+    "description": "Sentiment of the news calculated using multiple techniques",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 92,
+    "alphaCount": 396,
+    "themes": []
+  },
+  {
+    "id": "rp_css_marketing",
+    "description": "Composite sentiment score of marketing news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3643,
+    "userCount": 103,
+    "alphaCount": 382,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_ratings",
+    "description": "Event sentiment score of analyst ratings-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7566,
+    "userCount": 98,
+    "alphaCount": 382,
+    "themes": []
+  },
+  {
+    "id": "nws18_acb",
+    "description": "News sentiment specializing in corporate action announcements",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 95,
+    "alphaCount": 373,
+    "themes": []
+  },
+  {
+    "id": "rp_css_product",
+    "description": "Composite sentiment score of product and service-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7644,
+    "userCount": 105,
+    "alphaCount": 370,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_price",
+    "description": "News impact projection of stock price news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8355,
+    "userCount": 98,
+    "alphaCount": 370,
+    "themes": []
+  },
+  {
+    "id": "nws18_relevance",
+    "description": "Relevance of news to the company",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 87,
+    "alphaCount": 353,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_revenue",
+    "description": "Event sentiment score of revenue news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.941,
+    "userCount": 92,
+    "alphaCount": 351,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_revenue",
+    "description": "News impact projection of revenue news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.941,
+    "userCount": 102,
+    "alphaCount": 351,
+    "themes": []
+  },
+  {
+    "id": "nws18_event_relevance",
+    "description": "Relevance of the event to the story",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 159,
+    "alphaCount": 351,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_partner",
+    "description": "Event sentiment score of partnership news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4299,
+    "userCount": 164,
+    "alphaCount": 345,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_insider",
+    "description": "Event sentiment score of insider trading news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6707,
+    "userCount": 107,
+    "alphaCount": 333,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_ratings",
+    "description": "News impact projection of analyst ratings-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7566,
+    "userCount": 132,
+    "alphaCount": 329,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_mna",
+    "description": "News impact projection of mergers and acquisitions-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.6798,
+    "userCount": 89,
+    "alphaCount": 323,
+    "themes": []
+  },
+  {
+    "id": "rp_css_ratings",
+    "description": "Composite sentiment score of analyst ratings-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7566,
+    "userCount": 105,
+    "alphaCount": 313,
+    "themes": []
+  },
+  {
+    "id": "nws18_ber",
+    "description": "News sentiment specializing in earnings result",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 83,
+    "alphaCount": 313,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_equity",
+    "description": "Event sentiment score of equity action news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.8631,
+    "userCount": 84,
+    "alphaCount": 301,
+    "themes": []
+  },
+  {
+    "id": "nws18_qmb",
+    "description": "News sentiment specializing in editorials on global markets",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 49,
+    "alphaCount": 295,
+    "themes": []
+  },
+  {
+    "id": "nws18_qcm",
+    "description": "News sentiment of relevant news with high confidence",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 76,
+    "alphaCount": 290,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_assets",
+    "description": "Event sentiment score of assets news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.7442,
+    "userCount": 96,
+    "alphaCount": 285,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_labor",
+    "description": "Event sentiment score of labor issues news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5638,
+    "userCount": 79,
+    "alphaCount": 273,
+    "themes": []
+  },
+  {
+    "id": "nws18_bee",
+    "description": "News sentiment specializing in growth of earnings",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 79,
+    "alphaCount": 264,
+    "themes": []
+  },
+  {
+    "id": "nws18_bam",
+    "description": "News sentiment specializing in mergers and acquisitions",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 92,
+    "alphaCount": 258,
+    "themes": []
+  },
+  {
+    "id": "rp_css_labor",
+    "description": "Composite sentiment score of labor issues news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5638,
+    "userCount": 74,
+    "alphaCount": 250,
+    "themes": []
+  },
+  {
+    "id": "rp_css_partner",
+    "description": "Composite sentiment score of partnership news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4299,
+    "userCount": 102,
+    "alphaCount": 237,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_labor",
+    "description": "News impact projection of labor issues news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5638,
+    "userCount": 67,
+    "alphaCount": 236,
+    "themes": []
+  },
+  {
+    "id": "rp_css_ptg",
+    "description": "Composite sentiment score of price target news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3817,
+    "userCount": 96,
+    "alphaCount": 235,
+    "themes": []
+  },
+  {
+    "id": "nws18_event_similarity_days",
+    "description": "Days since a similar event was detected",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 68,
+    "alphaCount": 217,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_partner",
+    "description": "News impact projection of partnership news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.4299,
+    "userCount": 73,
+    "alphaCount": 216,
+    "themes": []
+  },
+  {
+    "id": "nws18_sse",
+    "description": "Sentiment of phrases impacting the company",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 48,
+    "alphaCount": 216,
+    "themes": []
+  },
+  {
+    "id": "rp_css_credit",
+    "description": "Composite sentiment score of credit news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2891,
+    "userCount": 75,
+    "alphaCount": 190,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_legal",
+    "description": "Event sentiment score of legal news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2197,
+    "userCount": 99,
+    "alphaCount": 182,
+    "themes": []
+  },
+  {
+    "id": "rp_css_dividends",
+    "description": "Composite sentiment score of dividends news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5119,
+    "userCount": 63,
+    "alphaCount": 167,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_ptg",
+    "description": "News impact projection of price target news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3817,
+    "userCount": 67,
+    "alphaCount": 167,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_ptg",
+    "description": "Event sentiment score of price target news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3817,
+    "userCount": 81,
+    "alphaCount": 161,
+    "themes": []
+  },
+  {
+    "id": "rp_css_legal",
+    "description": "Composite sentiment score of legal news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2197,
+    "userCount": 62,
+    "alphaCount": 142,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_dividends",
+    "description": "News impact projection of dividends news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5119,
+    "userCount": 55,
+    "alphaCount": 123,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_society",
+    "description": "Event sentiment score of society-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2508,
+    "userCount": 49,
+    "alphaCount": 118,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_society",
+    "description": "News impact projection of society-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2508,
+    "userCount": 40,
+    "alphaCount": 115,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_legal",
+    "description": "News impact projection of legal news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2197,
+    "userCount": 38,
+    "alphaCount": 112,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_credit",
+    "description": "News impact projection of credit news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2891,
+    "userCount": 54,
+    "alphaCount": 109,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_technical",
+    "description": "News impact projection based on technical analysis",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3179,
+    "userCount": 35,
+    "alphaCount": 108,
+    "themes": []
+  },
+  {
+    "id": "rp_css_society",
+    "description": "Composite sentiment score of society-related news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2508,
+    "userCount": 49,
+    "alphaCount": 94,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_credit_ratings",
+    "description": "Event sentiment score of credit ratings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.223,
+    "userCount": 42,
+    "alphaCount": 92,
+    "themes": []
+  },
+  {
+    "id": "rp_css_technical",
+    "description": "Composite sentiment score based on technical analysis",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3179,
+    "userCount": 39,
+    "alphaCount": 90,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_dividends",
+    "description": "Event sentiment score of dividends news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.5119,
+    "userCount": 42,
+    "alphaCount": 87,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_technical",
+    "description": "Event sentiment score based on technical analysis",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.3179,
+    "userCount": 33,
+    "alphaCount": 85,
+    "themes": []
+  },
+  {
+    "id": "rp_nip_credit_ratings",
+    "description": "News impact projection of credit ratings news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.223,
+    "userCount": 34,
+    "alphaCount": 76,
+    "themes": []
+  },
+  {
+    "id": "rp_ess_credit",
+    "description": "Event sentiment score of credit news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP3000",
+    "type": "MATRIX",
+    "coverage": 0.2891,
+    "userCount": 41,
+    "alphaCount": 69,
+    "themes": []
+  }
+]

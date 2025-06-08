@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nws18_ghc_lna",
+    "description": "Change in analyst recommendation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_nip",
+    "description": "Degree of impact of the news",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_qep",
+    "description": "News sentiment based on positive and negative words on global equity",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_bam",
+    "description": "News sentiment specializing in mergers and acquisitions",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_relevance",
+    "description": "Relevance of news to the company",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_ssc",
+    "description": "Sentiment of the news calculated using multiple techniques",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_event_similarity_days",
+    "description": "Days since a similar event was detected",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_qmb",
+    "description": "News sentiment specializing in editorials on global markets",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_ber",
+    "description": "News sentiment specializing in earnings result",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_sse",
+    "description": "Sentiment of phrases impacting the company",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_bee",
+    "description": "News sentiment specializing in growth of earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_qcm",
+    "description": "News sentiment of relevant news with high confidence",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_event_relevance",
+    "description": "Relevance of the event to the story",
+    "type": "VECTOR"
+  },
+  {
+    "id": "nws18_acb",
+    "description": "News sentiment specializing in corporate action announcements",
+    "type": "VECTOR"
+  }
+]

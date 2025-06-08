@@ -1,0 +1,482 @@
+[
+  {
+    "id": "cap",
+    "description": "Daily market capitalization (in millions)",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 442,
+    "alphaCount": 741,
+    "themes": []
+  },
+  {
+    "id": "subindustry",
+    "description": "Subindustry grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 207,
+    "alphaCount": 659,
+    "themes": []
+  },
+  {
+    "id": "close",
+    "description": "Daily close price",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 324,
+    "alphaCount": 648,
+    "themes": []
+  },
+  {
+    "id": "industry",
+    "description": "Industry grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 236,
+    "alphaCount": 613,
+    "themes": []
+  },
+  {
+    "id": "sector",
+    "description": "Sector grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 182,
+    "alphaCount": 597,
+    "themes": []
+  },
+  {
+    "id": "market",
+    "description": "Market grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 128,
+    "alphaCount": 490,
+    "themes": []
+  },
+  {
+    "id": "returns",
+    "description": "Daily returns",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 141,
+    "alphaCount": 426,
+    "themes": []
+  },
+  {
+    "id": "volume",
+    "description": "Daily volume",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 162,
+    "alphaCount": 406,
+    "themes": []
+  },
+  {
+    "id": "open",
+    "description": "Daily open price",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 228,
+    "alphaCount": 337,
+    "themes": []
+  },
+  {
+    "id": "vwap",
+    "description": "Daily volume weighted average price",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 98,
+    "alphaCount": 162,
+    "themes": []
+  },
+  {
+    "id": "high",
+    "description": "Daily high price",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 64,
+    "alphaCount": 135,
+    "themes": []
+  },
+  {
+    "id": "low",
+    "description": "Daily low price",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 62,
+    "alphaCount": 123,
+    "themes": []
+  },
+  {
+    "id": "sharesout",
+    "description": "Daily outstanding shares (in millions)",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 53,
+    "alphaCount": 118,
+    "themes": []
+  },
+  {
+    "id": "adv20",
+    "description": "Average daily volume in past 20 days",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 55,
+    "alphaCount": 110,
+    "themes": []
+  },
+  {
+    "id": "split",
+    "description": "Stock split ratio",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 24,
+    "alphaCount": 71,
+    "themes": []
+  },
+  {
+    "id": "exchange",
+    "description": "Exchange grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 29,
+    "alphaCount": 45,
+    "themes": []
+  },
+  {
+    "id": "country",
+    "description": "Country grouping",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 1.0,
+    "userCount": 26,
+    "alphaCount": 44,
+    "themes": []
+  },
+  {
+    "id": "dividend",
+    "description": "Dividend",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 16,
+    "alphaCount": 27,
+    "themes": []
+  },
+  {
+    "id": "currency",
+    "description": "Currency",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 0.0,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "sedol",
+    "description": "Sedol",
+    "dataset": {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity"
+    },
+    "category": {
+      "id": "pv",
+      "name": "Price Volume"
+    },
+    "subcategory": {
+      "id": "pv-price-volume",
+      "name": "Price Volume"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOPSP500",
+    "type": "GROUP",
+    "coverage": 0.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "currency",
+    "description": "Currency",
+    "type": "GROUP"
+  },
+  {
+    "id": "sedol",
+    "description": "Sedol",
+    "type": "GROUP"
+  }
+]

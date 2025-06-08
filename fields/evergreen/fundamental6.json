@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "assets",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "enterprise_value",
+    "description": "Enterprise Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "operating_income",
+    "description": "Operating Income After Depreciation - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "ebitda",
+    "description": "Earnings Before Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "sales",
+    "description": "Sales/Turnover (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "liabilities",
+    "description": "Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "debt",
+    "description": "Debt",
+    "type": "MATRIX"
+  },
+  {
+    "id": "capex",
+    "description": "Capital Expenditures",
+    "type": "MATRIX"
+  },
+  {
+    "id": "equity",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "eps",
+    "description": "Earnings Per Share (Basic) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "ebit",
+    "description": "Earnings Before Interest and Taxes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "assets_curr",
+    "description": "Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cash",
+    "description": "Cash",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cashflow",
+    "description": "Cashflow (Annual)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "operating_expense",
+    "description": "Operating Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "debt_lt",
+    "description": "Long-Term Debt - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "goodwill",
+    "description": "Goodwill (net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "income_tax",
+    "description": "Income Taxes - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "income",
+    "description": "Net Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "invested_capital",
+    "description": "Invested Capital - Total - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cashflow_op",
+    "description": "Operating Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fopo",
+    "description": "Funds from Operations - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "sales_growth",
+    "description": "Growth in Sales (Quarterly)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "bookvalue_ps",
+    "description": "Book Value Per Share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "receivable",
+    "description": "Receivables - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cogs",
+    "description": "Cost of Goods Sold",
+    "type": "MATRIX"
+  },
+  {
+    "id": "revenue",
+    "description": "Revenue - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "return_assets",
+    "description": "Return on Assets",
+    "type": "MATRIX"
+  },
+  {
+    "id": "inventory",
+    "description": "Inventories - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cashflow_fin",
+    "description": "Financing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "liabilities_curr",
+    "description": "Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "sga_expense",
+    "description": "Selling, General and Administrative Expenses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "return_equity",
+    "description": "Return on Equity",
+    "type": "MATRIX"
+  },
+  {
+    "id": "employee",
+    "description": "Employees",
+    "type": "MATRIX"
+  },
+  {
+    "id": "ppent",
+    "description": "Property Plant and Equipment - Total (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "pretax_income",
+    "description": "Pretax Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "sales_ps",
+    "description": "Sales per Share (Quarterly)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "depre_amort",
+    "description": "Depreciation and Amortization - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cashflow_dividends",
+    "description": "Cash Dividends (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "income_beforeextra",
+    "description": "Income Before Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "debt_st",
+    "description": "Debt in Current Liabilities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "retained_earnings",
+    "description": "Retained Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "working_capital",
+    "description": "Working Capital (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aox",
+    "description": "Assets - Other - Sundry",
+    "type": "MATRIX"
+  },
+  {
+    "id": "cashflow_invst",
+    "description": "Investing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "rd_expense",
+    "description": "Research And Development (Quarterly)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "inventory_turnover",
+    "description": "Inventory Turnover",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ch",
+    "description": "Cash",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_exre",
+    "description": "Exchange Rate Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "current_ratio",
+    "description": "Current Ratio",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acodo",
+    "description": "Other Current Assets Excl Discontinued Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_intc",
+    "description": "Interest Capitalized",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acdo",
+    "description": "Current Assets of Discontinued Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aodo",
+    "description": "Other Assets excluding Discontinued Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdi",
+    "description": "Income Taxes - Deferred",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ci",
+    "description": "Comprehensive Income - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "interest_expense",
+    "description": "Interest and Related Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_drlt",
+    "description": "Deferred Revenue - Long-term",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_teq",
+    "description": "Stockholders' Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_niadj",
+    "description": "Net Income Adjusted for Common/Ordinary Stock (Capital) Equivalents",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_loxdr",
+    "description": "Liabilities - Other - Excluding Deferred Revenue",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txndb",
+    "description": "Net Deferred Tax Asset (Liab) - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_recco",
+    "description": "Receivables - Current - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_drc",
+    "description": "Deferred Revenue - Current",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rectr",
+    "description": "Receivables - Trade",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xopr",
+    "description": "Operating Expenses - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ibmii",
+    "description": "Income before Extraordinary Items and Noncontrolling Interests",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubend",
+    "description": "Unrecog. Tax Benefits - End of Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ceql",
+    "description": "Common Equity - Liquidation Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fopox",
+    "description": "Funds from Operations - Other excluding Option Tax Benefit",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acox",
+    "description": "Current Assets - Other - Sundry",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cibegni",
+    "description": "Comp Inc - Beginning Net Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ciother",
+    "description": "Comp. Inc. - Other Adj.",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cstkcv",
+    "description": "Common Stock-Carrying Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_itci",
+    "description": "Investment Tax Credit (Income Account)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_am",
+    "description": "Amortization of Intangibles",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshpri",
+    "description": "Common Shares Used to Calculate Earnings Per Share - Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txpd",
+    "description": "Income Taxes Paid",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aqc",
+    "description": "Acquisitions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_intpn",
+    "description": "Interest Paid - Net",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_capxv",
+    "description": "Capital Expend Property, Plant and Equipment Schd V",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dilavx",
+    "description": "Dilution Available - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivaco",
+    "description": "Investing Activities - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xrent",
+    "description": "Rental Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_citotal",
+    "description": "Comprehensive Income - Parent",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_esubc",
+    "description": "Equity in Net Loss - Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_oprepsx",
+    "description": "Earnings Per Share - Diluted - from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aldo",
+    "description": "Long-term Assets of Discontinued Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dc",
+    "description": "Deferred Charges",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_nopio",
+    "description": "Nonoperating Income (Expense) - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcca",
+    "description": "Options Cancelled - Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dltr",
+    "description": "Long-Term Debt - Reduction",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_intan",
+    "description": "Intangible Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dvpa",
+    "description": "Preferred Dividends in Arrears",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcby",
+    "description": "Options Outstanding Beginning of Year - Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txndbl",
+    "description": "Net Deferred Tax Liability",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fatl",
+    "description": "Property, Plant, and Equipment - Leases at Cost",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xacc",
+    "description": "Accrued Expenses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xpr",
+    "description": "Pension and Retirement Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acqgdwl",
+    "description": "Acquired Assets - Goodwill",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cisecgl",
+    "description": "Comp Inc - Securities Gains/Losses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubbegin",
+    "description": "Unrecog. Tax Benefits - Beg of Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubsoflimit",
+    "description": "Lapse of Statute of Limitations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dcvsub",
+    "description": "Debt - Subordinated Convertible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd",
+    "description": "Debt - Debentures",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lcox",
+    "description": "Current Liabilities - Other - Sundry",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrcta",
+    "description": "Thereafter Portion of Leases",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_np",
+    "description": "Notes Payable - Short-Term Borrowings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optosby",
+    "description": "Options Outstanding - Beginning of Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optosey",
+    "description": "Options Outstanding - End of Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivaeq",
+    "description": "Investment and Advances - Equity",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cimii",
+    "description": "Comprehensive Income - Noncontrolling Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrc4",
+    "description": "Rental Commitments - Minimum - 4th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_reajo",
+    "description": "Retained Earnings - Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_recd",
+    "description": "Receivables - Estimated Doubtful",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txndba",
+    "description": "Net Deferred Tax Asset",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txw",
+    "description": "Excise Taxes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cipen",
+    "description": "Comprehensive Income - Minimum Pension Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dltp",
+    "description": "Long-Term Debt - Tied to Prime",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mibt",
+    "description": "Noncontrolling Interests - Total - Balance Sheet",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrc2",
+    "description": "Rental Commitments - Minimum - 2nd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optca",
+    "description": "Options - Cancelled (-)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tlcf",
+    "description": "Tax Loss Carry Forward",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txo",
+    "description": "Income Taxes - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubtxtr",
+    "description": "Impact on Effective Tax Rate",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xad",
+    "description": "Advertising Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivstch",
+    "description": "Short-Term Investments - Change",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_sstk",
+    "description": "Sale of Common and Preferred Stock",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdc",
+    "description": "Deferred Taxes (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acqintan",
+    "description": "Acquired Assets - Intangibles",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cld2",
+    "description": "Capitalized Leases - Due in 2nd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fatn",
+    "description": "Property, Plant, and Equipment - Natural Resources at Cost",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrct",
+    "description": "Rental Commitments - Minimum - 5-Year Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tstkc",
+    "description": "Treasury Stock - Common",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdba",
+    "description": "Deferred Tax Asset - Long Term",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubposdec",
+    "description": "Decrease - Current Tax Positions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cidergl",
+    "description": "Comp Inc - Derivative Gains/Losses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ds",
+    "description": "Debt - Subordinated",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivst",
+    "description": "Short-Term Investments - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lul3",
+    "description": "Liabilities Level 3 (Unobservable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_msa",
+    "description": "Marketable Securities Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcgr",
+    "description": "Options Granted - Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcwa",
+    "description": "Options Exercisable - Weighted Avg Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optrfr",
+    "description": "Risk-Free Rate - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optvol",
+    "description": "Volatility - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pidom",
+    "description": "Pretax Income - Domestic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rea",
+    "description": "Retained Earnings - Restatement",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txbcof",
+    "description": "Excess Tax Benefit of Stock Options - Cash Flow Financing",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdfo",
+    "description": "Deferred Taxes - Foreign",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubadjust",
+    "description": "Other Unrecognized Tax Benefit Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invrm",
+    "description": "Inventories - Raw Materials",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prstkc",
+    "description": "Purchase of Common and Preferred Stock",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cld4",
+    "description": "Capitalized Leases - Due in 4th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_donr",
+    "description": "Nonrecurring Disc Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dxd4",
+    "description": "Debt (excl Capitalized Leases) - Due in 4th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fatc",
+    "description": "Plant, Property and Equipment at Cost - Construction in Progress",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lcoxdr",
+    "description": "Current Liabilities - Other - Excluding Deferred Revenue",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lno",
+    "description": "Liabilities Netting & Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lol2",
+    "description": "Liabilities Level 2 (Observable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optgr",
+    "description": "Options - Granted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optlife",
+    "description": "Life of Options - Assumption (# yrs)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pnrsho",
+    "description": "Nonred Pfd Shares Outs (000)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ppeveb",
+    "description": "Property, Plant, and Equipment - Ending Balance (Schedule V)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fiao",
+    "description": "Financing Activities - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aqi",
+    "description": "Acquisitions - Income Contribution",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd5",
+    "description": "Debt Due in 5th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lifr",
+    "description": "LIFO Reserve",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optex",
+    "description": "Options Exercisable (000)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_recta",
+    "description": "Retained Earnings - Cumulative Translation Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_sppe",
+    "description": "Sale of Property",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txbco",
+    "description": "Excess Tax Benefit Stock Options - Cash Flow Operating",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txc",
+    "description": "Income Taxes - Current",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubpospdec",
+    "description": "Decrease - Prior Tax Positions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cicurr",
+    "description": "Comp Inc - Currency Trans Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dm",
+    "description": "Debt - Mortgages & Other Secured",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optdr",
+    "description": "Dividend Rate - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcex",
+    "description": "Options Exercised - Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdbca",
+    "description": "Deferred Tax Asset - Current",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdfed",
+    "description": "Deferred Taxes - Federal",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txfo",
+    "description": "Income Taxes - Foreign",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txr",
+    "description": "Income Tax Refund",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubposinc",
+    "description": "Increase - Current Tax Positions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubsettle",
+    "description": "Settlements with Tax Authorities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xpp",
+    "description": "Prepaid Expenses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invfg",
+    "description": "Inventories - Finished Goods",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invwip",
+    "description": "Inventories - Work In Process",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivao",
+    "description": "Investment and Advances - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aqs",
+    "description": "Acquisitions - Sales Contribution",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dclo",
+    "description": "Debt - Capitalized Lease Obligations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd1",
+    "description": "Long-Term Debt Due in 1 Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dn",
+    "description": "Debt - Notes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dxd3",
+    "description": "Debt (excl Capitalized Leases) - Due in 3rd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dxd5",
+    "description": "Debt (excl Capitalized Leases) - Due in 5th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fato",
+    "description": "Plant, Property and Equipment at Cost - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_idit",
+    "description": "Interest and Related Income - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mibn",
+    "description": "Noncontrolling Interests - Nonredeemable - Balance Sheet",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrc3",
+    "description": "Rental Commitments - Minimum - 3rd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrc5",
+    "description": "Rental Commitments - Minimum - 5th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optprcey",
+    "description": "Options Outstanding End of Year - Price",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pifo",
+    "description": "Pretax Income - Foreign",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_stkcpa",
+    "description": "After-tax stock compensation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tfvce",
+    "description": "Total Fair Value Changes including Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdbcl",
+    "description": "Deferred Tax Liability - Current",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txds",
+    "description": "Deferred Taxes - State",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fate",
+    "description": "Plant, Property and Equipment at Cost - Machinery & Equipment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fatp",
+    "description": "Plant, Property and Equipment at Cost - Land & Improvements",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invo",
+    "description": "Inventories - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_siv",
+    "description": "Sale of Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cld5",
+    "description": "Capitalized Leases - Due in 5th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dcvsr",
+    "description": "Debt - Senior Convertible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd2",
+    "description": "Debt Due in 2nd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd4",
+    "description": "Debt Due in 4th Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dlto",
+    "description": "Debt - Long-Term - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mrc1",
+    "description": "Rental Commitments - Minimum - 1st Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optfvgr",
+    "description": "Options - Fair Value of Options Granted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_spce",
+    "description": "S&P Core Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tfva",
+    "description": "Total Fair Value Assets",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tfvl",
+    "description": "Total Fair Value Liabilities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txs",
+    "description": "Income Taxes - State",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubxintbs",
+    "description": "Interest & Penalties Accrued - B/S",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshr",
+    "description": "Common/Ordinary Shareholders",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dlcch",
+    "description": "Current Debt - Changes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_sppiv",
+    "description": "Sale of Property, Plant and Equipment and Investments - Gain (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cld3",
+    "description": "Capitalized Leases - Due in 3rd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd3",
+    "description": "Debt Due in 3rd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dltis",
+    "description": "Long-Term Debt - Issuance",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dpvieb",
+    "description": "Depreciation (Accumulated) - Ending Balance (Schedule VI)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dxd2",
+    "description": "Debt (excl Capitalized Leases) - Due in 2nd Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lqpl1",
+    "description": "Liabilities Level 1 (Quoted Prices)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txfed",
+    "description": "Income Taxes - Federal",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txndbr",
+    "description": "Deferred Tax Residual",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubpospinc",
+    "description": "Increase - Prior Tax Positions",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txtubxintis",
+    "description": "Interest & Penalties Recognized - I/S",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xintopt",
+    "description": "Implied Option Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fatb",
+    "description": "Plant, Property and Equipment at Cost - Buildings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ivch",
+    "description": "Increase in Investments",
+    "type": "MATRIX"
+  }
+]

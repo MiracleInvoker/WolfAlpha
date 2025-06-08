@@ -1,0 +1,5 @@
+*.env
+contexts/
+prompts/
+simulations/
+__pycache__

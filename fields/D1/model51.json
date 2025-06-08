@@ -1,0 +1,82 @@
+[
+  {
+    "id": "unsystematic_risk_last_360_days",
+    "description": "Unsystematic Risk Last 360 Days - Relative to SPY",
+    "type": "MATRIX"
+  },
+  {
+    "id": "unsystematic_risk_last_60_days",
+    "description": "Unsystematic Risk Last 60 Days - Relative to SPY",
+    "type": "MATRIX"
+  },
+  {
+    "id": "correlation_last_60_days_spy",
+    "description": "Correlation to SPY in 60 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "beta_last_60_days_spy",
+    "description": "Beta to SPY in 60 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "unsystematic_risk_last_90_days",
+    "description": "Unsystematic Risk Last 90 Days - Relative to SPY",
+    "type": "MATRIX"
+  },
+  {
+    "id": "beta_last_90_days_spy",
+    "description": "Beta to SPY in 90 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "beta_last_30_days_spy",
+    "description": "Beta to SPY in 30 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "systematic_risk_last_60_days",
+    "description": "Systematic Risk Last 60 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "beta_last_360_days_spy",
+    "description": "Beta to SPY in 360 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "correlation_last_30_days_spy",
+    "description": "Correlation to SPY in 30 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "unsystematic_risk_last_30_days",
+    "description": "Unsystematic Risk Last 30 Days - Relative to SPY",
+    "type": "MATRIX"
+  },
+  {
+    "id": "systematic_risk_last_360_days",
+    "description": "Systematic Risk Last 360 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "systematic_risk_last_30_days",
+    "description": "Systematic Risk Last 30 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "correlation_last_90_days_spy",
+    "description": "Correlation to SPY in 90 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "correlation_last_360_days_spy",
+    "description": "Correlation to SPY in 360 Days",
+    "type": "MATRIX"
+  },
+  {
+    "id": "systematic_risk_last_90_days",
+    "description": "Systematic Risk Last 90 Days",
+    "type": "MATRIX"
+  }
+]

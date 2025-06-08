@@ -1,0 +1,532 @@
+[
+  {
+    "id": "fnd6_epsfx",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ap",
+    "description": "Accounts Payable - Trade",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dp",
+    "description": "Depreciation and Amortization",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lt",
+    "description": "Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ceq",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2_oancf",
+    "description": "Operating Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_fincf",
+    "description": "Financing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_epspi",
+    "description": "Earnings Per Share (Basic) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cstk",
+    "description": "Common/Ordinary Stock (Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_gp",
+    "description": "Gross Profit (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pi",
+    "description": "Pretax Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rect",
+    "description": "Receivables - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_reuna",
+    "description": "Retained Earnings - Unadjusted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_at",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_csho",
+    "description": "Common Shares Outstanding",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ppegt",
+    "description": "Property, Plant and Equipment - Total (Gross)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dltt",
+    "description": "Long-Term Debt - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xrd",
+    "description": "Research and Development Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_oibdp",
+    "description": "Operating Income Before Depreciation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dpc",
+    "description": "Depreciation and Amortization (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_ivncf",
+    "description": "Investing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_revt",
+    "description": "Revenue - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_che",
+    "description": "Cash and Short-Term Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_oiadp",
+    "description": "Operating Income After Depreciation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_chech",
+    "description": "Cash and Cash Equivalents - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_seq",
+    "description": "Stockholders Equity - Parent",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xint",
+    "description": "Interest and Related Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_emp",
+    "description": "Employees",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_caps",
+    "description": "Capital Surplus/Share Premium Reserve",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ibcom",
+    "description": "Income Before Extraordinary Items - Available for Common",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ao",
+    "description": "Assets - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_ebit",
+    "description": "Earnings Before Interest and Taxes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_icapt",
+    "description": "Invested Capital - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ibadj",
+    "description": "Income Before Extraordinary Items - Adjusted for Common Stock Equivalents",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_act",
+    "description": "Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ceqt",
+    "description": "Common Equity - Tangible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cogs",
+    "description": "Cost of Goods Sold",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lco",
+    "description": "Current Liabilities - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdb",
+    "description": "Deferred Taxes - Balance Sheet",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_re",
+    "description": "Retained Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aco",
+    "description": "Current Assets - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_opeps",
+    "description": "Earnings Per Share from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txp",
+    "description": "Income Taxes Payable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshfd",
+    "description": "Common Shares Used to Calculate Earnings Per Share - Fully Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_gdwl",
+    "description": "Goodwill",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txt",
+    "description": "Income Taxes - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_epsfi",
+    "description": "Earnings Per Share (Diluted) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xsga",
+    "description": "Selling, General and Administrative Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_capx",
+    "description": "Capital Expenditures",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_ebitda",
+    "description": "Earnings Before Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ni",
+    "description": "Net Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rdipa",
+    "description": "In Process R&D Expense After-tax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_nopi",
+    "description": "Nonoperating Income (Expense)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lo",
+    "description": "Liabilities - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_sale",
+    "description": "Sales/Turnover (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_wcap",
+    "description": "Working Capital (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mii",
+    "description": "Noncontrolling Interest (Income Account)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dlc",
+    "description": "Debt in Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_epspx",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ibc",
+    "description": "Income Before Extraordinary Items (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aoloch",
+    "description": "Assets and Liabilities - Other - Net Change",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ib",
+    "description": "Income Before Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rdipd",
+    "description": "In Process R&D Expense Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invch",
+    "description": "Mortgages - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aocidergl",
+    "description": "Accumulated Other Comprehensive Income - Derivatives Unrealized Gain/Loss",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aociother",
+    "description": "Accum Other Comp Inc - Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_bkvlps",
+    "description": "Book Value Per Share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prsho",
+    "description": "Redeem Pfd Shares Outs (000)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aocipen",
+    "description": "Accumulated Other Comprehensive Income - Minimum Pension Liability Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshi",
+    "description": "Common Shares Issued",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lse",
+    "description": "Liabilities and Stockholders' Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rceps",
+    "description": "Restructuring Costs Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_seqo",
+    "description": "Other Stockholders - Equity Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_recch",
+    "description": "Accounts Receivable - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_acominc",
+    "description": "Accumulated Other Comprehensive Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aol2",
+    "description": "Assets Level 2 (Observable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aqpl1",
+    "description": "Assets Level 1 (Quoted Prices)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dcom",
+    "description": "Deferred Compensation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ppent",
+    "description": "Property, Plant and Equipment - Total (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rdip",
+    "description": "In-Process R&D Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_spi",
+    "description": "Special Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tstk",
+    "description": "Treasury Stock - Total (All Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_aul3",
+    "description": "Assets Level 3 (Unobservable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fca",
+    "description": "Foreign Exchange Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_invt",
+    "description": "Inventories - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_lct",
+    "description": "Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optexd",
+    "description": "Options - Exercised (-)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ano",
+    "description": "Assets Netting & Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dpact",
+    "description": "Depreciation, Depletion and Amortization (Accumulated)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1_dv",
+    "description": "Cash Dividends (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_intano",
+    "description": "Other Intangibles",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rca",
+    "description": "Restructuring Costs After-tax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rcd",
+    "description": "Restructuring Costs Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rcp",
+    "description": "Restructuring Costs Pretax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rdipeps",
+    "description": "In Process R&D Expense Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_spceeps",
+    "description": "S&P Core Earnings EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_tstkn",
+    "description": "Treasury Stock - Number of Common Shares",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txach",
+    "description": "Income Taxes - Accrued - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xoptd",
+    "description": "Implied Option EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dvt",
+    "description": "Dividends - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_apalch",
+    "description": "Accounts Payable and Accrued Liabilities - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_spced",
+    "description": "S&P Core Earnings EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_stkco",
+    "description": "Stock Compensation Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txditc",
+    "description": "Deferred Taxes and Investment Tax Credit",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xopteps",
+    "description": "Implied Option EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dvc",
+    "description": "Dividends Common/Ordinary",
+    "type": "MATRIX"
+  }
+]

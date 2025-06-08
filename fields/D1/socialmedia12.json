@@ -1,0 +1,32 @@
+[
+  {
+    "id": "scl12_alltype_buzzvec",
+    "description": "sentiment volume",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_alltype_sentvec",
+    "description": "sentiment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_alltype_typevec",
+    "description": "instrument type index",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_cubealltype_sentvec",
+    "description": "sentiment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_cubealltype_typevec",
+    "description": "instrument type index",
+    "type": "VECTOR"
+  },
+  {
+    "id": "scl12_cubealltype_buzzvec",
+    "description": "sentiment volume",
+    "type": "VECTOR"
+  }
+]

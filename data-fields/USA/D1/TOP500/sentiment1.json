@@ -1,0 +1,410 @@
+[
+  {
+    "id": "snt1_d1_dynamicfocusrank",
+    "description": "0-100, high values for buy signal and lower values for sell signal",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5651,
+    "userCount": 27,
+    "alphaCount": 164,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_earningsrevision",
+    "description": "1 month change in mean of earnings estimate / price",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.558,
+    "userCount": 17,
+    "alphaCount": 97,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_earningssurprise",
+    "description": "(Actual earnings - expected earnings) / price",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5575,
+    "userCount": 17,
+    "alphaCount": 96,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_uptargetpercent",
+    "description": "Ratio of (Number ofup target) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5508,
+    "userCount": 14,
+    "alphaCount": 74,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_buyrecpercent",
+    "description": "Ratio of (Number ofanalyst buy) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5557,
+    "userCount": 14,
+    "alphaCount": 65,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_netrecpercent",
+    "description": "Ratio of (Number ofanalyst buy) - (Number ofanalyst sell) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5557,
+    "userCount": 12,
+    "alphaCount": 64,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_stockrank",
+    "description": "0-100, high values for buy signal and lower values for sell signal",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5672,
+    "userCount": 19,
+    "alphaCount": 61,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_netearningsrevision",
+    "description": "Ratio of (Number ofanalyst raising est earnings) - (Number ofanalyst lowering est earnings) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.556,
+    "userCount": 15,
+    "alphaCount": 61,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_analystcoverage",
+    "description": "# of analysts providing an earnings estimate",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5573,
+    "userCount": 13,
+    "alphaCount": 55,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_earningstorpedo",
+    "description": "(Expected earnings - previous actual earnings) / price",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5522,
+    "userCount": 13,
+    "alphaCount": 52,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_fundamentalfocusrank",
+    "description": "0-100, high values for buy signal and lower values for sell signal",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5684,
+    "userCount": 16,
+    "alphaCount": 50,
+    "themes": []
+  },
+  {
+    "id": "snt1_cored1_score",
+    "description": "bearish: score < 5, bullish: score > 5, neutral: score in [-5, 5]",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.6329,
+    "userCount": 12,
+    "alphaCount": 44,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_longtermepsgrowthest",
+    "description": "The median of analyst expected growth in operating earnings",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5413,
+    "userCount": 16,
+    "alphaCount": 41,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_sellrecpercent",
+    "description": "Ratio of (Number ofanalyst sell) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5557,
+    "userCount": 9,
+    "alphaCount": 36,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_nettargetpercent",
+    "description": "Ratio of (Number ofup target) - (Number ofdown target) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5508,
+    "userCount": 7,
+    "alphaCount": 30,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_downtargetpercent",
+    "description": "Ratio of (Number ofdown target) over (Number ofall analysts)",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5508,
+    "userCount": 8,
+    "alphaCount": 26,
+    "themes": []
+  },
+  {
+    "id": "snt1_d1_dtstsespe",
+    "description": "Dispersion among analysts' estimates",
+    "dataset": {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data"
+    },
+    "category": {
+      "id": "sentiment",
+      "name": "Sentiment"
+    },
+    "subcategory": {
+      "id": "sentiment-sentiment",
+      "name": "Sentiment"
+    },
+    "region": "USA",
+    "delay": 1,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.5572,
+    "userCount": 9,
+    "alphaCount": 17,
+    "themes": []
+  }
+]

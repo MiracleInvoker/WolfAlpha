@@ -1,0 +1,218 @@
+[
+  {
+    "id": "snt_buzz",
+    "description": "negative relative sentiment volume, fill nan with 0",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.9531,
+    "userCount": 3,
+    "alphaCount": 5,
+    "themes": []
+  },
+  {
+    "id": "scl12_buzzvec",
+    "description": "sentiment volume",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.9524,
+    "userCount": 1,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "scl12_buzz",
+    "description": "relative sentiment volume",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.9499,
+    "userCount": 2,
+    "alphaCount": 2,
+    "themes": []
+  },
+  {
+    "id": "scl12_typevec",
+    "description": "instrument type index",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.9524,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "snt_value",
+    "description": "negative sentiment, fill nan with 0",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.944,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "snt_buzz_bfl",
+    "description": "negative relative sentiment volume, fill nan with 1",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 1.0,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "scl12_sentvec",
+    "description": "sentiment",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "VECTOR",
+    "coverage": 0.9524,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "snt_buzz_ret",
+    "description": "negative return of relative sentiment volume",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.953,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "scl12_sentiment",
+    "description": "sentiment",
+    "dataset": {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity"
+    },
+    "category": {
+      "id": "socialmedia",
+      "name": "Social Media"
+    },
+    "subcategory": {
+      "id": "socialmedia-social-media",
+      "name": "Social Media"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP500",
+    "type": "MATRIX",
+    "coverage": 0.9413,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

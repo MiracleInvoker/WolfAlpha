@@ -1,0 +1,338 @@
+[
+  {
+    "id": "nws18_bam",
+    "description": "News sentiment specializing in mergers and acquisitions",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 1,
+    "alphaCount": 1,
+    "themes": []
+  },
+  {
+    "id": "nws18_acb",
+    "description": "News sentiment specializing in corporate action announcements",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_bee",
+    "description": "News sentiment specializing in growth of earnings",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_ber",
+    "description": "News sentiment specializing in earnings result",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_event_relevance",
+    "description": "Relevance of the event to the story",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_event_similarity_days",
+    "description": "Days since a similar event was detected",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_ghc_lna",
+    "description": "Change in analyst recommendation",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_nip",
+    "description": "Degree of impact of the news",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_qcm",
+    "description": "News sentiment of relevant news with high confidence",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_qep",
+    "description": "News sentiment based on positive and negative words on global equity",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_qmb",
+    "description": "News sentiment specializing in editorials on global markets",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_relevance",
+    "description": "Relevance of news to the company",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_ssc",
+    "description": "Sentiment of the news calculated using multiple techniques",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  },
+  {
+    "id": "nws18_sse",
+    "description": "Sentiment of phrases impacting the company",
+    "dataset": {
+      "id": "news18",
+      "name": "Ravenpack News Data"
+    },
+    "category": {
+      "id": "news",
+      "name": "News"
+    },
+    "subcategory": {
+      "id": "news-news-sentiment",
+      "name": "News Sentiment"
+    },
+    "region": "USA",
+    "delay": 0,
+    "universe": "TOP200",
+    "type": "VECTOR",
+    "coverage": 1.0,
+    "userCount": 0,
+    "alphaCount": 0,
+    "themes": []
+  }
+]

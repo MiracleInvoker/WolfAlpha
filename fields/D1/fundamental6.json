@@ -1,0 +1,3252 @@
+[
+  {
+    "id": "cash_st",
+    "description": "Cash and Short-Term Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_rdipeps",
+    "description": "In Process R&D Expense Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_adesinda_curcd",
+    "description": "ISO Currency Code - Company Annual Market",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ancq",
+    "description": "Non-Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_zipcode",
+    "description": "ZIP code related to the company",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_state",
+    "description": "integer for identifying the state of the company",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_ppent",
+    "description": "Property, Plant and Equipment - Total (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_drltq",
+    "description": "Deferred Revenue - Long-term",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cik",
+    "description": "nonimportant technical code",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_city",
+    "description": "the city where a company's corporate headquarters or home office is located",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_drcq",
+    "description": "Deferred Revenue - Current",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_weburl",
+    "description": "WEB URL code for the company",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_acomincq",
+    "description": "Accumulated Other Comprehensive Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_cshprq",
+    "description": "Common Shares Used to Calculate Earnings Per Share - Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_gp",
+    "description": "Gross Profit (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_incorp",
+    "description": "Incorporated",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshtrq",
+    "description": "Common Shares Traded - Quarter",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_opepsq",
+    "description": "Earnings Per Share from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_lctq",
+    "description": "Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fyrc",
+    "description": "Unimportant technical code, please ignore for research purposes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_loc",
+    "description": "string for locating the Headquarters of the company",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_at",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ein",
+    "description": "Employer Identification Number code for the company",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_intanoq",
+    "description": "Other Intangibles",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_ceqq",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_prsho",
+    "description": "Redeem Pfd Shares Outs (000)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_oibdp",
+    "description": "Operating Income Before Depreciation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_bkvlps",
+    "description": "Book Value Per Share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_seqoq",
+    "description": "Other Stockholders' Equity Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_atq",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_dlttq",
+    "description": "Long-Term Debt - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_apq",
+    "description": "Accounts Payable/Creditors - Trade",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_teqq",
+    "description": "Stockholders' Equity - Total - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_rdipd",
+    "description": "In Process R&D Expense Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xoprq",
+    "description": "Operating Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_fic",
+    "description": "identifies the country in which the company is incorporated or legally registered",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_lcoq",
+    "description": "Current Liabilities - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cshtr",
+    "description": "Common Shares Traded - Annual",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_opepsq",
+    "description": "Earnings Per Share from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_dlttq",
+    "description": "Long-Term Debt - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_oeps12",
+    "description": "Earnings Per Share from Operations - 12 Months Moving",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_csho",
+    "description": "Common Shares Outstanding",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_stype",
+    "description": "Segment Type",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa2v1300_xidoc",
+    "description": "Extraordinary Items and Discontinued Operations (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_oiadpq",
+    "description": "Operating Income After Depreciation - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_oepf12",
+    "description": "Earnings Per Share - Diluted - from Operations - 12MM",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_rectq",
+    "description": "Receivables - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_atq",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_epsfxq",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_nopiq",
+    "description": "Non-Operating Income (Expense) - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_cstk",
+    "description": "Common/Ordinary Stock (Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_saleq",
+    "description": "Sales/Turnover (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_xsga",
+    "description": "Selling, General and Administrative Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_ceqq",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_lltq",
+    "description": "Long-Term Liabilities (Total)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_ltq",
+    "description": "Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cstkcvq",
+    "description": "Common Stock-Carrying Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aco",
+    "description": "Current Assets - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_seq",
+    "description": "Stockholders Equity - Parent",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_ni",
+    "description": "Net Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_oibdpq",
+    "description": "Operating Income Before Depreciation - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_epsfi",
+    "description": "Earnings Per Share (Diluted) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_currencya_curcd",
+    "description": "ISO Currency Code - Company Annual Market",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_dilavq",
+    "description": "Dilution Available - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_piq",
+    "description": "Pretax Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_oibdpq",
+    "description": "Operating Income Before Depreciation - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_lctq",
+    "description": "Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_rdipa",
+    "description": "In-Process R&D Expense After-tax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_reuna",
+    "description": "Retained Earnings - Unadjusted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma2_opeps",
+    "description": "Earnings Per Share from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_epsf12",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary Items - 12 Months Moving",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prcc",
+    "description": "Price Close - Annual",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_mib",
+    "description": "Minority Interest (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_act",
+    "description": "Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_icaptq",
+    "description": "Invested Capital - Total - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_lo",
+    "description": "Liabilities - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prclq",
+    "description": "Price Low - Quarter",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma2_revt",
+    "description": "Revenue - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_aoq",
+    "description": "Assets - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xrdq",
+    "description": "Research and Development Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ibc",
+    "description": "Income Before Extraordinary Items (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_seqq",
+    "description": "Stockholders' Equity - Total - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dltt",
+    "description": "Long-Term Debt - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_esopnrq",
+    "description": "Preferred ESOP Obligation - Non-Redeemable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ibmiiq",
+    "description": "Income before Extraordinary Items and Noncontrolling Interests",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xsgaq",
+    "description": "Selling, General and Administrative Expenses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_actq",
+    "description": "Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_esoprq",
+    "description": "Preferred ESOP Obligation - Redeemable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txditcq",
+    "description": "Deferred Taxes and Investment Tax Credit",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_apalch",
+    "description": "Accounts Payable and Accrued Liabilities - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_xaccq",
+    "description": "Accrued Expenses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prccq",
+    "description": "Price Close - Quarter",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dpc",
+    "description": "Depreciation and Amortization (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_at",
+    "description": "Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_beta",
+    "description": "beta",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_oiadp",
+    "description": "Operating Income After Depreciation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_cheq",
+    "description": "Cash and Short-Term Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_epspi",
+    "description": "Earnings Per Share (Basic) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_capx",
+    "description": "Capital Expenditures",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_currencyqv1300_curcd",
+    "description": "ISO Currency Code - Company Annual Market",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cshprq",
+    "description": "Common Shares Used to Calculate Earnings Per Share - Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dvc",
+    "description": "Dividends Common/Ordinary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_dpc",
+    "description": "Depreciation and Amortization (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ppentq",
+    "description": "Property Plant and Equipment - Total (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txtq",
+    "description": "Income Taxes - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_recdq",
+    "description": "Receivables - Estimated Doubtful",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_aociotherq",
+    "description": "Accumulated Other Comprehensive Income - Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_intanq",
+    "description": "Intangible Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_emp",
+    "description": "Employees",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_invch",
+    "description": "Mortgages - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_re",
+    "description": "Retained Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma2_oancf",
+    "description": "Operating Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_capx",
+    "description": "Capital Expenditures",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ceq",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_dlcq",
+    "description": "Debt in Current Liabilities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_aoloch",
+    "description": "Assets and Liabilities - Other - Net Change",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_lt",
+    "description": "Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cstkq",
+    "description": "Common/Ordinary Stock (Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rdipq",
+    "description": "In Process R&D",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_idesindq_curcd",
+    "description": "ISO Currency Code - Company Annual Market",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_epsx12",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items - 12 Months Moving",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_epsfx",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_piq",
+    "description": "Pretax Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_invch",
+    "description": "Mortgages - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dcvt",
+    "description": "Debt - Convertible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_dcomq",
+    "description": "Deferred Compensation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_rect",
+    "description": "Receivables - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_actq",
+    "description": "Current Assets - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_intano",
+    "description": "Other Intangibles",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ibadj12",
+    "description": "Income Before Extra Items - Adj for Common Stock Equivalents - 12MM",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_saleq",
+    "description": "Sales/Turnover (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cshfdq",
+    "description": "Common Shares for Diluted EPS",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_lct",
+    "description": "Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_ibcomq",
+    "description": "Income Before Extraordinary Items - Available for Common",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_mii",
+    "description": "Noncontrolling Interest (Income Account)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_miiq",
+    "description": "Noncontrolling Interest - Income Account",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_capsq",
+    "description": "Capital Surplus/Share Premium Reserve",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_optrfrq",
+    "description": "Risk Free Rate - Assumption (%)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_gdwlq",
+    "description": "Goodwill (net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_lseq",
+    "description": "Liabilities and Stockholders' Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_csho",
+    "description": "Common Shares Outstanding",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_oancf",
+    "description": "Operating Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ltmibq",
+    "description": "Liabilities - Total and Noncontrolling Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txwq",
+    "description": "Excise Taxes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_oepsxq",
+    "description": "Earnings Per Share - Diluted - from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_cshfd",
+    "description": "Common Shares Used to Calc Earnings Per Share - Fully Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txpq",
+    "description": "Income Taxes Payable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ppents",
+    "description": "Property, Plant & Equipment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa2v1300_optexd",
+    "description": "Options - Exercised (-)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ap",
+    "description": "Accounts Payable - Trade",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_rdip",
+    "description": "In Process R&D Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_drltq",
+    "description": "Deferred Revenue - Long-term",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa1v1300_ceqt",
+    "description": "Common Equity - Tangible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_dp",
+    "description": "Depreciation and Amortization",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_reunaq",
+    "description": "Unadjusted Retained Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ciotherq",
+    "description": "Comp Inc - Other Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_txt",
+    "description": "Income Taxes - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dlc",
+    "description": "Debt in Current Liabilities - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_epsfiq",
+    "description": "Earnings Per Share (Diluted) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_invt",
+    "description": "Inventories - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dcpstk",
+    "description": "Convertible Debt and Preferred Stock",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ibq",
+    "description": "Income Before Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_cogs",
+    "description": "Cost of Goods Sold",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dudd",
+    "description": "Debt - Unamortized Debt Discount and Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_optvolq",
+    "description": "Volatility - Assumption (%)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_mfma2_txach",
+    "description": "Income Taxes - Accrued - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dv",
+    "description": "Cash Dividends (Cash Flow)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ciq",
+    "description": "Comprehensive Income - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_txdb",
+    "description": "Deferred Taxes - Balance Sheet",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_req",
+    "description": "Retained Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_pi",
+    "description": "Pretax Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_lqpl1q",
+    "description": "Liabilities Level 1 (Quoted Prices)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_sale",
+    "description": "Sales/Turnover (Net)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cogsq",
+    "description": "Cost of Goods Sold",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_lco",
+    "description": "Current Liabilities - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_epspx",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_altoq",
+    "description": "Other Long-term Assets",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prcl",
+    "description": "Price Low - Annual",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prchq",
+    "description": "Price High - Quarter",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_recch",
+    "description": "Accounts Receivable - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txdbaq",
+    "description": "Deferred Tax Asset - Long Term",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rectaq",
+    "description": "Accum Other Comp Inc - Cumulative Translation Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_rank",
+    "description": "SP rank with the following meaning: // 0----invalid rank //1----A+//2----A//3----A-//4----B+//5----B//6----B-//7----C+//8----C//9----C-",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_esopnr",
+    "description": "Preferred ESOP Obligation - Non-Redeemable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_msaq",
+    "description": "Accumulated Other Comprehensive Income - Marketable Security Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma1_apalch",
+    "description": "Accounts Payable and Accrued Liabilities - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_che",
+    "description": "Cash and Short-Term Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_opeps",
+    "description": "Earnings Per Share from Operations",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqv1300_dpq",
+    "description": "Depreciation and Amortization - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_invwipq",
+    "description": "Inventory - Work in Process",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ebitda",
+    "description": "Earnings Before Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_lse",
+    "description": "Liabilities and Stockholders Equity - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_optfvgrq",
+    "description": "Options - Fair Value of Options Granted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfma2_recch",
+    "description": "Accounts Receivable - Decrease (Increase)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_revt",
+    "description": "Revenue - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_seqo",
+    "description": "Other Stockholders' Equity Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_xrd",
+    "description": "Research and Development Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_invtq",
+    "description": "Inventories - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cshiq",
+    "description": "Common Shares Issued",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_aocisecglq",
+    "description": "Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_txditc",
+    "description": "Deferred Taxes and Investment Tax Credit",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptmfmq_dpq",
+    "description": "Depreciation and Amortization - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_chech",
+    "description": "Cash and Cash Equivalents - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_loxdrq",
+    "description": "Liabilities - Other - Excluding Deferred Revenue",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_optlifeq",
+    "description": "Life of Options - Assumption (# yrs)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_csh12q",
+    "description": "Common Shares Used to Calculate Earnings Per Share - 12 Months Moving",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_stkco",
+    "description": "Stock Compensation Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_icapt",
+    "description": "Invested Capital - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_txdbclq",
+    "description": "Current Deferred Tax Liability",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aocipen",
+    "description": "Accum Other Comp Inc - Min Pension Liab Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_cogsq",
+    "description": "Cost of Goods Sold",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ao",
+    "description": "Assets - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_invfgq",
+    "description": "Inventory - Finished Goods",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ano",
+    "description": "Assets Netting & Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dcom",
+    "description": "Deferred Compensation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_fincf",
+    "description": "Financing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cipenq",
+    "description": "Comp Inc - Minimum Pension Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_acoq",
+    "description": "Current Assets - Other - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_caps",
+    "description": "Capital Surplus/Share Premium Reserve",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ibcomq",
+    "description": "Income Before Extraordinary Items - Available for Common",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_revtq",
+    "description": "Revenue - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_drcq",
+    "description": "Deferred Revenue - Current",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa2v1300_ppegt",
+    "description": "Property, Plant and Equipment - Total (Gross)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pstkc",
+    "description": "Preferred Stock - Convertible",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_citotalq",
+    "description": "Comprehensive Income - Parent",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_esopr",
+    "description": "Preferred ESOP Obligation - Redeemable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aociother",
+    "description": "Accum Other Comp Inc - Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_mibtq",
+    "description": "Noncontrolling Interests - Total - Balance Sheet - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aoloch",
+    "description": "Assets and Liabilities - Other - Net Change",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_spceeps",
+    "description": "S&P Core Earnings EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_wcap",
+    "description": "Working Capital (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dp",
+    "description": "Depreciation and Amortization",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_itcb",
+    "description": "Investment Tax Credit (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_epspxq",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xintq",
+    "description": "Interest and Related Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rectoq",
+    "description": "Receivables - Current Other incl Tax Refunds",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_acominc",
+    "description": "Accumulated Other Comprehensive Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ib",
+    "description": "Income Before Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ppegtq",
+    "description": "Property, Plant and Equipment - Total (Gross) - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_spcedpq",
+    "description": "S&P Core Earnings EPS Diluted - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_spi",
+    "description": "Special Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_gdwl",
+    "description": "Goodwill",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_txp",
+    "description": "Income Taxes Payable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_esopct",
+    "description": "Common ESOP Obligation - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_chq",
+    "description": "Cash",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_naicss",
+    "description": "NAICS Code",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_aociderglq",
+    "description": "Accum Other Comp Inc - Derivatives Unrealized Gain/Loss",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rectrq",
+    "description": "Receivables - Trade",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ibadjq",
+    "description": "Income Before Extraordinary Items - Adjusted for Common Stock Equivalents",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aul3",
+    "description": "Assets Level 3 (Unobservable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_invrmq",
+    "description": "Inventory - Raw Materials",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_spcepq",
+    "description": "S&P Core Earnings - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_dd1q",
+    "description": "Long-Term Debt Due in 1 Year",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_txdbclq",
+    "description": "Current Deferred Tax Liability",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa1v1300_ibadj",
+    "description": "Income Before Extraordinary Items - Adjusted for Common Stock Equivalents",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_aqpl1q",
+    "description": "Assets Level 1 (Quoted Prices)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mkvalt",
+    "description": "Market Value - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_tstknq",
+    "description": "Treasury Stock - Number of Common Shares",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_npq",
+    "description": "Notes Payable",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_prch",
+    "description": "Price High - Annual",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_dpactq",
+    "description": "Depreciation, Depletion and Amortization (Accumulated)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_epspiq",
+    "description": "Earnings Per Share (Basic) - Including Extraordinary Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cicurrq",
+    "description": "Comp Inc - Currency Trans Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_wcapq",
+    "description": "Working Capital (Balance Sheet)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cibegniq",
+    "description": "Comp Inc - Beginning Net Income",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aocidergl",
+    "description": "Accum Other Comp Inc - Derivatives Unrealized Gain/Loss",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_loq",
+    "description": "Liabilities - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ivltq",
+    "description": "Total Long-term Investments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dpact",
+    "description": "Depreciation, Depletion and Amortization (Accumulated)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_spced",
+    "description": "S&P Core Earnings EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ebit",
+    "description": "Earnings Before Interest and Taxes",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_ivncf",
+    "description": "Investing Activities - Net Cash Flow",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcraq",
+    "description": "Repurchase Price - Average per share",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_tstkq",
+    "description": "Treasury Stock - Total (All Capital)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_optvolq",
+    "description": "Volatility - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_invoq",
+    "description": "Inventory - Other",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rdipdq",
+    "description": "In Process R&D Expense Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_mfmq_dlcq",
+    "description": "Debt in Current Liabilities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pstkrv",
+    "description": "Preferred Stock - Redemption Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_dvt",
+    "description": "Dividends - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_tstkn",
+    "description": "Treasury Stock - Number of Common Shares",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_tstk",
+    "description": "Treasury Stock - Total (All Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optlifeq",
+    "description": "Life of Options - Assumption (# yrs)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_nopi",
+    "description": "Nonoperating Income (Expense)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_pstknq",
+    "description": "Preferred/Preference Stock - Nonredeemable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_aocipenq",
+    "description": "Accum Other Comp Inc - Min Pension Liab Adj",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_txach",
+    "description": "Income Taxes - Accrued - Increase/(Decrease)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_lul3q",
+    "description": "Liabilities Level 3 (Unobservable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_esoprq",
+    "description": "Preferred ESOP Obligation - Redeemable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa1v1300_ibcom",
+    "description": "Income Before Extraordinary Items - Available for Common",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_stkcoq",
+    "description": "Stock Compensation Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_pstkl",
+    "description": "Preferred Stock - Liquidating Value",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cshoq",
+    "description": "Common Shares Outstanding",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_tfvaq",
+    "description": "Total Fair Value Assets",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_glcepq",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa1v1300_cshi",
+    "description": "Common Shares Issued",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aol2",
+    "description": "Assets Level 2 (Observable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_anoq",
+    "description": "Assets Netting & Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_msaq",
+    "description": "Accum Other Comp Inc - Marketable Security Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_lol2q",
+    "description": "Liabilities Level 2 (Observable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_mibnq",
+    "description": "Non-Redeemable Noncontrolling Interest (Balance Sheet) - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_stkcpaq",
+    "description": "After-tax stock compensation",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cisecglq",
+    "description": "Comp Inc - Securities Gains/Losses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_ciderglq",
+    "description": "Comp Inc - Derivative Gains/Losses",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_optdrq",
+    "description": "Dividend Rate - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_gldq",
+    "description": "Gain/Loss Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_npq",
+    "description": "Notes Payable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_rdipaq",
+    "description": "In Process R&D Expense After-tax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa1v1300_aqpl1",
+    "description": "Assets Level 1 (Quoted Prices)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cimiiq",
+    "description": "Comprehensive Income - Noncontrolling Interest",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_tstkq",
+    "description": "Treasury Stock - Total (All Capital)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txdiq",
+    "description": "Income Taxes - Deferred",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_spiq",
+    "description": "Special Items",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_rdipepsq",
+    "description": "In-Process R&D Expense Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_tfvlq",
+    "description": "Total Fair Value Liabilities",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_lctq",
+    "description": "Current Liabilities - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa2v1300_xint",
+    "description": "Interest and Related Expense - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_ranks",
+    "description": "Ranking",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa1v1300_fca",
+    "description": "Foreign Exchange Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_cstkeq",
+    "description": "Common Stock Equivalents - Dollar Savings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptrank_gvkeymap",
+    "description": "technical code for a company, no need to use it for research",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xoptq",
+    "description": "Implied Option Expense",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_rdipq",
+    "description": "In Process R&D",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_mibtq",
+    "description": "Noncontrolling Interests - Total - Balance Sheet - Quarterly",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_txdbq",
+    "description": "Deferred Taxes - Balance Sheet",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_optfvgrq",
+    "description": "Options - Fair Value of Options Granted",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spceepspq",
+    "description": "S&P Core Earnings EPS Basic - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newa2v1300_xoptd",
+    "description": "Implied Option EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_aul3q",
+    "description": "Assets Level 3 (Unobservable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_prcraq",
+    "description": "Repurchase Price - Average per share",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_emps",
+    "description": "Employees",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_aol2q",
+    "description": "Assets Level 2 (Observable)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_cstkcvq",
+    "description": "Common Stock - Carrying Value",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cshiq",
+    "description": "Common Shares Issued",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_dteepsq",
+    "description": "Extinguishment of Debt Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_ivstq",
+    "description": "Short-Term Investments - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_cshopq",
+    "description": "Total Shares Repurchased - Quarter",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_seqoq",
+    "description": "Other Stockholders' Equity Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_acomincq",
+    "description": "Accumulated Other Comprehensive Income (Loss)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_diladq",
+    "description": "Dilution Adjustment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_mkvaltq",
+    "description": "Market Value - Total",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_rcpq",
+    "description": "Restructuring Cost Pretax",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_optrfrq",
+    "description": "Risk-Free Rate - Assumption (%)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_apq",
+    "description": "Accounts Payable/Creditors - Trade",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_nopiq",
+    "description": "Non-Operating Income (Expense) - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_rdipepsq",
+    "description": "In-Process R&D Expense Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_cheq",
+    "description": "Cash and Short-Term Investments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dlcq",
+    "description": "Debt in Current Liabilities",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rdipdq",
+    "description": "In-Process R&D Expense Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_sales",
+    "description": "Net Sales",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glceaq",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rectoq",
+    "description": "Receivables - Current Other incl. Tax Refunds",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_tfvceq",
+    "description": "Total Fair Value Changes including Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_stkcoq",
+    "description": "Stock Compensation Expense",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_intanoq",
+    "description": "Other Intangibles",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_oepf12",
+    "description": "Earnings Per Share - Diluted - from Operations - 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_txws",
+    "description": "Excise Taxes",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_lnoq",
+    "description": "Liabilities Netting & Other Adjustments",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_glceepsq",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xidoq",
+    "description": "Extraordinary Items and Discontinued Operations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_glepsq",
+    "description": "Gain/Loss Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_capsq",
+    "description": "Capital Surplus/Share Premium Reserve",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glcedq",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Diluted EPS",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_txdbcaq",
+    "description": "Current Deferred Tax Asset",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ltmibq",
+    "description": "Liabilities - Total and Noncontrolling Interest",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prshoq",
+    "description": "Redeem Pfd Shares Outs (000)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_xaccq",
+    "description": "Accrued Expenses",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_sics",
+    "description": "SIC Code",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_capxs",
+    "description": "Capital Expenditures",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lcoq",
+    "description": "Current Liabilities - Other - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnrshoq",
+    "description": "Nonred Pfd Shares Outs (000) - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_gdwlq",
+    "description": "Goodwill (net)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_tstknq",
+    "description": "Treasury Stock - Number of Common Shares",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_aocipenq",
+    "description": "Accum Other Comp Inc - Min Pension Liab Adj",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xrdq",
+    "description": "Research and Development Expense",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_oiadps",
+    "description": "Operating Income after Depreciation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_fcaq",
+    "description": "Foreign Exchange Income (Loss)",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_aocisecglq",
+    "description": "Accum. Other Comp. Inc. - Unreal G/L Ret. Int. in Sec. Assets",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_loq",
+    "description": "Liabilities - Other",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_xidos",
+    "description": "Extraordinary Items and Discontinued Operations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pnceps12",
+    "description": "Core Pension Adjustment Basic EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rdipaq",
+    "description": "In Process R&D Expense After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spceepsq",
+    "description": "S&P Core Earnings EPS Basic",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_oibdpq",
+    "description": "Operating Income Before Depreciation - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncpepsq",
+    "description": "Core Pension Adjustment Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_intseg",
+    "description": "Intersegment Eliminations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_chq",
+    "description": "Cash",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_esopctq",
+    "description": "Common ESOP Obligation - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_opepsq",
+    "description": "Earnings Per Share from Operations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_seqq",
+    "description": "Stockholders' Equity - Total - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_glcea12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) After-tax 12MM",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_ltq",
+    "description": "Liabilities - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_revtq",
+    "description": "Revenue - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_revts",
+    "description": "Total Revenues",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_dpq",
+    "description": "Depreciation and Amortization - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cshopq",
+    "description": "Total Shares Repurchased - Quarter",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_epsx12",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items - 12 Months Moving",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_gdwlia12",
+    "description": "Impairments of Goodwill After-Tax - 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_optdrq",
+    "description": "Dividend Rate - Assumption (%)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spcedq",
+    "description": "S&P Core Earnings EPS Diluted",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pstkq",
+    "description": "Preferred/Preference Stock (Capital) - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pstkrq",
+    "description": "Preferred/Preference Stock - Redeemable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_acchgq",
+    "description": "Accounting Changes - Cumulative Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_citotalq",
+    "description": "Comprehensive Income - Parent",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dteaq",
+    "description": "Extinguishment of Debt After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_invoq",
+    "description": "Inventory - Other",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lul3q",
+    "description": "Liabilities Level 3 (Unobservable)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_rds",
+    "description": "Research and Development",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cicurrq",
+    "description": "Comp Inc - Currency Trans Adj",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_epsfiq",
+    "description": "Earnings Per Share (Diluted) - Including Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_oeps12",
+    "description": "Earnings Per Share from Operations - 12 Months Moving",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_piq",
+    "description": "Pretax Income",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncepsq",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cibegniq",
+    "description": "Comp Inc - Beginning Net Income",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cipenq",
+    "description": "Comp Inc - Minimum Pension Adj",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncpd12",
+    "description": "Core Pension Adjustment 12MM Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spce12",
+    "description": "S&P Core Earnings 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cshfdq",
+    "description": "Common Shares for Diluted EPS",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cshprq",
+    "description": "Common Shares Used to Calculate Earnings Per Share - Basic",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncd12",
+    "description": "Core Pension Adjustment Diluted EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptdq",
+    "description": "Implied Option EPS Diluted",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptepsqp",
+    "description": "Implied Option EPS Basic Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_pncepsq",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_ceqq",
+    "description": "Common/Ordinary Equity - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptepsq",
+    "description": "Implied Option EPS Basic",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_acoq",
+    "description": "Current Assets - Other - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_gdwlieps12",
+    "description": "Impairment of Goodwill Basic EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncdq",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_seteps12",
+    "description": "Settlement (Litigation/Insurance) Basic EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_setepsq",
+    "description": "Settlement (Litigation/Insurance) Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptq",
+    "description": "Implied Option Expense",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ibmiiq",
+    "description": "Income before Extraordinary Items and Noncontrolling Interests",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_oiadpq",
+    "description": "Operating Income After Depreciation - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_stkcpaq",
+    "description": "After-tax stock compensation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_oelim",
+    "description": "Other Eliminations (Income)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_txts",
+    "description": "Income Taxes",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_aociotherq",
+    "description": "Accum Other Comp Inc - Other Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_intanq",
+    "description": "Intangible Assets - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lqpl1q",
+    "description": "Liabilities Level 1 (Quoted Prices)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncpdq",
+    "description": "Core Pension Adjustment Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptdqp",
+    "description": "Implied Option EPS Diluted Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dcomq",
+    "description": "Deferred Compensation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_dd1q",
+    "description": "Long Term Debt Due in 1 Year",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_epsf12",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary Items - 12 Months Moving",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncpq",
+    "description": "Core Pension Adjustment Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prce12",
+    "description": "Core Post Retirement Adjustment 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spcep12",
+    "description": "S&P Core Earnings 12MM - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spcepd12",
+    "description": "S&P Core Earnings 12MM EPS Diluted - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xopt12",
+    "description": "Implied Option Expense - 12mm",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptd12p",
+    "description": "Implied Option 12MM EPS Diluted Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_aqpl1q",
+    "description": "Assets Level 1 (Quoted Prices)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_oepsxq",
+    "description": "Earnings Per Share - Diluted - from Operations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ppegtq",
+    "description": "Property, Plant and Equipment - Total (Gross) - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rcpq",
+    "description": "Restructuring Cost Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_tfvaq",
+    "description": "Total Fair Value Assets",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_tfvlq",
+    "description": "Total Fair Value Liabilities",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_wdpq",
+    "description": "Writedowns Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_esubs",
+    "description": "Equity in Earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_gdwls",
+    "description": "Goodwill",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_spis",
+    "description": "Special Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_xsgas",
+    "description": "Selling, General & Administrative",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_glceeps12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Basic EPS Effect 12MM",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_csh12q",
+    "description": "Common Shares Used to Calculate Earnings Per Share - 12 Months Moving",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncpeps12",
+    "description": "Core Pension Adjustment 12MM Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rectaq",
+    "description": "Accum Other Comp Inc - Cumulative Translation Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spcepd12",
+    "description": "S&P Core Earnings 12MM EPS Diluted - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_cogsq",
+    "description": "Cost of Goods Sold",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptd12",
+    "description": "Implied Option EPS Diluted 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptepsp12",
+    "description": "Implied Option 12MM EPS Basic Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ptis",
+    "description": "Pretax Income",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newa2v1300_xopteps",
+    "description": "Implied Option EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newq_xoptqp",
+    "description": "Implied Option Expense Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_aociderglq",
+    "description": "Accumulated Other Comprehensive Income - Derivatives Unrealized Gain/Loss",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ciotherq",
+    "description": "Comprehensive Income - Other Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_epsfxq",
+    "description": "Earnings Per Share (Diluted) - Excluding Extraordinary items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_invtq",
+    "description": "Inventories - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_recdq",
+    "description": "Receivables - Estimated Doubtful",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoprq",
+    "description": "Operating Expense - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xsgaq",
+    "description": "Selling, General and Administrative Expenses",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_actq",
+    "description": "Current Assets - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_altoq",
+    "description": "Other Long-term Assets",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_aoq",
+    "description": "Assets - Other - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_aul3q",
+    "description": "Assets Level 3 (Unobservable)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cimiiq",
+    "description": "Comprehensive Income - Noncontrolling Interest",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dilavq",
+    "description": "Dilution Available - Excluding Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_loxdrq",
+    "description": "Liabilities - Other - Excluding Deferred Revenue",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_miiq",
+    "description": "Noncontrolling Interest - Income Account",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_rectq",
+    "description": "Receivables - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xopteps12",
+    "description": "Implied Option EPS Basic 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cogss",
+    "description": "Cost of Goods Sold",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_glced12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Diluted EPS Effect 12MM",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_dtepq",
+    "description": "Extinguishment of Debt Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lseq",
+    "description": "Liabilities and Stockholders' Equity - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_mibnq",
+    "description": "NonRedeemable Noncontrolling Interest (Balance Sheet) - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnc12",
+    "description": "Pension Core Adjustment - 12mm",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_spced12",
+    "description": "S&P Core Earnings EPS Diluted 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spceepspq",
+    "description": "S&P Core Earnings EPS Basic - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spcepq",
+    "description": "S&P Core Earnings - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spceq",
+    "description": "S&P Core Earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xiq",
+    "description": "Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_nis",
+    "description": "Net Income (Loss)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_nxints",
+    "description": "Net Interest Income (Expense)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newq_xoptepsqp",
+    "description": "Implied Option EPS Basic Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_aqaq",
+    "description": "Acquisition/Merger After-Tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cstkq",
+    "description": "Common/Ordinary Stock (Capital)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_gdwlid12",
+    "description": "Impairments Diluted EPS - 12mm",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glced12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Diluted EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncq",
+    "description": "Core Pension Adjustment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcpq",
+    "description": "Core Post-Retirement Adjustment Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spiq",
+    "description": "Special Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txpq",
+    "description": "Income Taxes Payable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_wcapq",
+    "description": "Working Capital (Balance Sheet)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xoptqp",
+    "description": "Implied Option Expense Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ias",
+    "description": "Identifiable (Total) Assets",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_iints",
+    "description": "Interest Income",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_snms",
+    "description": "Segment Name",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_xints",
+    "description": "Interest Expense",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_atq",
+    "description": "Assets - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cisecglq",
+    "description": "Comp Inc - Securities Gains/Losses",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_cshoq",
+    "description": "Common Shares Outstanding",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dvpq",
+    "description": "Dividends - Preferred/Preference",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_invfgq",
+    "description": "Inventory - Finished Goods",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_invrmq",
+    "description": "Inventory - Raw Materials",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ivltq",
+    "description": "Total Long-term Investments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_setd12",
+    "description": "Settlement (Litigation/Insurance) Diluted EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spioaq",
+    "description": "Other Special Items After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_dps",
+    "description": "Depreciation and Amortization",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spcedq",
+    "description": "S&P Core Earnings EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_aol2q",
+    "description": "Assets Level 2 (Observable)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_dtedq",
+    "description": "Extinguishment of Debt Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_epspiq",
+    "description": "Earnings Per Share (Basic) - Including Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_fcaq",
+    "description": "Foreign Exchange Income (Loss)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lltq",
+    "description": "Long-Term Liabilities (Total)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_req",
+    "description": "Retained Earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_saleq",
+    "description": "Sales/Turnover (Net)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spceeps12",
+    "description": "S&P Core Earnings EPS Basic 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_cptnewqeventv110_dlttq",
+    "description": "Long-Term Debt - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_epspxq",
+    "description": "Earnings Per Share (Basic) - Excluding Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_esoptq",
+    "description": "Preferred ESOP Obligation - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lol2q",
+    "description": "Liabilities Level 2 (Observable)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_reunaq",
+    "description": "Unadjusted Retained Earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spceepsp12",
+    "description": "S&P Core 12MM EPS - Basic - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_xintq",
+    "description": "Interest and Related Expense - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_caxts",
+    "description": "Cost and Expenses - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_nopxs",
+    "description": "Nonoperating Income (Expense) - excluding Interest",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_pncdq",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_xoptepsq",
+    "description": "Implied Option EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_ibadjq",
+    "description": "Income Before Extraordinary Items - Adjusted for Common Stock Equivalents",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_lnoq",
+    "description": "Liabilities Netting & Other Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_mibq",
+    "description": "Noncontrolling Interest - Redeemable - Balance Sheet",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcpdq",
+    "description": "Core Post Retirement Adjustment Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txtq",
+    "description": "Income Taxes - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txwq",
+    "description": "Excise Taxes",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ivaeqs",
+    "description": "Investments at Equity",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_invwipq",
+    "description": "Inventory - Work in Process",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcpepsq",
+    "description": "Core Post-Retirement Adjustment Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spcedpq",
+    "description": "S&P Core Earnings EPS Diluted - Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_teqq",
+    "description": "Stockholders' Equity - Total - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ops",
+    "description": "Operating Profit (Loss)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ppentq",
+    "description": "Property Plant and Equipment - Total (Net)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txditcq",
+    "description": "Deferred Taxes and Investment Tax Credit",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_wdepsq",
+    "description": "Writedowns Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_oibdps",
+    "description": "Operating Income before Depreciation",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_prcdq",
+    "description": "Core Post Retirement Adjustment Diluted EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_aqpq",
+    "description": "Acquisition/Merger Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ciderglq",
+    "description": "Comprehensive Income - Derivative Gains/Losses",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_esopnrq",
+    "description": "Preferred ESOP Obligation - Non-Redeemable",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glaq",
+    "description": "Gain/Loss After-Tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glceeps12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) Basic EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ivstq",
+    "description": "Short-Term Investments - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcaq",
+    "description": "Core Post-Retirement Adjustment",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_pncq",
+    "description": "Core Pension Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqeventv110_anoq",
+    "description": "Assets Netting & Other Adjustments",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ciq",
+    "description": "Comprehensive Income - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_doq",
+    "description": "Discontinued Operations",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_dpactq",
+    "description": "Depreciation, Depletion and Amortization (Accumulated)",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glcea12",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted) After-tax 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_glpq",
+    "description": "Gain/Loss Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ibq",
+    "description": "Income Before Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_nrtxtq",
+    "description": "Nonrecurring Income Taxes - After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rectrq",
+    "description": "Receivables - Trade",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_wdaq",
+    "description": "Writedowns After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ibs",
+    "description": "Income before Extraordinary Items",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ancq",
+    "description": "Non-Current Assets - Total",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_gdwlamq",
+    "description": "Amortization of Goodwill",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_icaptq",
+    "description": "Invested Capital - Total - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_setpq",
+    "description": "Settlement (Litigation/Insurance) Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_spiopq",
+    "description": "Other Special Items Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txdbq",
+    "description": "Deferred Taxes - Balance Sheet",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_dvrated",
+    "description": "Indicated Annual Dividend Rate - Daily",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_obs",
+    "description": "Order Backlog",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_xoptdq",
+    "description": "Implied Option EPS Diluted",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_aqepsq",
+    "description": "Acquisition/Merger Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_gdwliaq",
+    "description": "Impairment of Goodwill After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcpd12",
+    "description": "Core Post-Retirement Adjustment 12MM Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_setdq",
+    "description": "Settlement (Litigation/Insurance) Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_spiepsq",
+    "description": "Other Special Items Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_curcddv",
+    "description": "ISO Currency Code - Dividend",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_ocaxs",
+    "description": "Other Costs and Expenses",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spcep12",
+    "description": "S&P Core Earnings 12MM - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_prcepsq",
+    "description": "Core Post Retirement Adjustment Basic EPS Effect",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_aqdq",
+    "description": "Acquisition/Merger Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_hedgeglq",
+    "description": "Gain/Loss on Ineffective Hedges",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_mibtq",
+    "description": "Noncontrolling Interests - Total - Balance Sheet - Quarterly",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnciepspq",
+    "description": "Core Pension Interest Adjustment Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rrpq",
+    "description": "Reversal - Restructuring/Acquisition Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txdbaq",
+    "description": "Deferred Tax Asset - Long Term",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_salexg",
+    "description": "Export Sales",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_gdwlipq",
+    "description": "Impairment of Goodwill Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcd12",
+    "description": "Core Post Retirement Adjustment Diluted EPS Effect 12 MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prceps12",
+    "description": "Core Post Retirement Adjustment Basic EPS Effect 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rcaq",
+    "description": "Restructuring Cost After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_seta12",
+    "description": "Settlement (Litigation/Insurance) After Tax - 12mm",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_wddq",
+    "description": "Writedowns Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spceepsp12",
+    "description": "S&P Core 12MM EPS - Basic - Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_spceepsq",
+    "description": "S&P Core Earnings EPS Basic",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_gdwlidq",
+    "description": "Impairment of Goodwill Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ibcomq",
+    "description": "Income Before Extraordinary Items - Available for Common",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnciaq",
+    "description": "Core Pension Interest Adjustment After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncidpq",
+    "description": "Core Pension Interest Adjustment Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncidq",
+    "description": "Core Pension Interest Adjustment Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnciepsq",
+    "description": "Core Pension Interest Adjustment Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_setaq",
+    "description": "Settlement (Litigation/Insurance) After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_spidq",
+    "description": "Other Special Items Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqv1300_spceq",
+    "description": "S&P Core Earnings",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_newqv1300_prcaq",
+    "description": "Core Post Retirement Adjustment",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_nrtxtepsq",
+    "description": "Nonrecurring Income Taxes Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pnciapq",
+    "description": "Core Pension Interest Adjustment After-tax Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwiaq",
+    "description": "Core Pension w/o Interest Adjustment After-tax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncwidq",
+    "description": "Core Pension w/o Interest Adjustment Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcepsq",
+    "description": "Core Post-Retirement Adjustment Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newq_xoptdqp",
+    "description": "Implied Option EPS Diluted Preliminary",
+    "type": "MATRIX"
+  },
+  {
+    "id": "fnd6_eventv110_gdwliepsq",
+    "description": "Impairment of Goodwill Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_ibadj12",
+    "description": "Income Before Extra Items - Adj for Common Stock Equivalents - 12MM",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncippq",
+    "description": "Core Pension Interest Adjustment Pretax Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncipq",
+    "description": "Core Pension Interest Adjustment Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwidpq",
+    "description": "Core Pension w/o Interest Adjustment Diluted EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwiepq",
+    "description": "Core Pension Without Interest Adjustment Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_pncwiepsq",
+    "description": "Core Pension w/o Interest Adjustment Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwippq",
+    "description": "Core Pension w/o Interest Adjustment Pretax Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwipq",
+    "description": "Core Pension Without Interest Adjustment Pretax",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcdq",
+    "description": "Core Post-Retirement Adjustment Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rcdq",
+    "description": "Restructuring Cost Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_tfvceq",
+    "description": "Total Fair Value Changes including Earnings",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_txdiq",
+    "description": "Income Taxes - Deferred",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_eventv110_nrtxtdq",
+    "description": "Nonrecurring Income Taxes Diluted EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_pncwiapq",
+    "description": "Core Pension w/o Interest Adjustment After-tax Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_prcpeps12",
+    "description": "Core Post-Retirement Adjustment 12MM Basic EPS Effect Preliminary",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_newqeventv110_rcepsq",
+    "description": "Restructuring Cost Basic EPS Effect",
+    "type": "VECTOR"
+  },
+  {
+    "id": "fnd6_divd",
+    "description": "Cash Dividends - Daily",
+    "type": "VECTOR"
+  }
+]

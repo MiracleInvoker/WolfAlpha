@@ -1,0 +1,522 @@
+{
+  "count": 17,
+  "results": [
+    {
+      "id": "analyst4",
+      "name": "Analyst Estimate Data for Equity",
+      "description": "This dataset provides details and aggregations on opinions from analysts on upcoming fiscal quarters and years. It also includes information about company\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s financial updates before and after earning announcements. It has global coverage.",
+      "category": {
+        "id": "analyst",
+        "name": "Analyst"
+      },
+      "subcategory": {
+        "id": "analyst-analyst-estimates",
+        "name": "Analyst Estimates"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.6036,
+      "valueScore": 1.0,
+      "userCount": 181,
+      "alphaCount": 387,
+      "fieldCount": 350,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "fundamental2",
+      "name": "Report Footnotes",
+      "description": "This dataset holds fundamental items included in the supplements of any related financial statements.",
+      "category": {
+        "id": "fundamental",
+        "name": "Fundamental"
+      },
+      "subcategory": {
+        "id": "fundamental-footnotes",
+        "name": "Footnotes"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.4089,
+      "valueScore": 1.0,
+      "userCount": 143,
+      "alphaCount": 246,
+      "fieldCount": 318,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "fundamental6",
+      "name": "Company Fundamental Data for Equity",
+      "description": "Fundamental database covers most of the world's big companies. The database also includes industry specific data and updates on quarterly basis. The data is summarized for quarterly/semiannual/yearly periods.",
+      "category": {
+        "id": "fundamental",
+        "name": "Fundamental"
+      },
+      "subcategory": {
+        "id": "fundamental-fundamental-data",
+        "name": "Fundamental Data"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.7445,
+      "valueScore": 1.0,
+      "userCount": 895,
+      "alphaCount": 1435,
+      "fieldCount": 886,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 03: Cross-Firm Information Flows and the Predictability of Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/14626658089495-Research-Paper-03-Cross-Firm-Information-Flows-and-the-Predictability-of-Stock-Returns"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 04: Are Cash Flows Better Stock Return Predictors than Profits?",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/14932488666903-Research-Paper-04-Are-Cash-Flows-Better-Stock-Return-Predictors-than-Profits"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 06: Penny Wise, Dollar Foolish: Buy-Sell Imbalances On and Around Round Numbers",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15440417945623-Research-Paper-06-Penny-Wise-Dollar-Foolish-Buy-Sell-Imbalances-On-and-Around-Round-Numbers"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 09: The Invisible Burden",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465017312535-Research-Paper-09-The-Invisible-Burden"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 10: Disagreement in Option Market and Cross Section Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465061985047-Research-Paper-10-Disagreement-in-Option-Market-and-Cross-Section-Stock-Returns"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 11: Analyst Following Along the Supply Chain",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15770899735703-Research-Paper-11-Analyst-Following-Along-the-Supply-Chain"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 12: Stock Recommendations from Stochastic Discounted Cash Flows",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15770966939671-Research-Paper-12-Stock-Recommendations-from-Stochastic-Discounted-Cash-Flows"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 13: Valuation Ratios, Surprises, Uncertainty or Sentiment: How Does Financial Machine Learning Predict Returns From Earnings Announcements?",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465058281495-Research-Paper-13-Valuation-Ratios-Surprises-Uncertainty-or-Sentiment-How-Does-Financial-Machine-Learning-Predict-Returns-From-Earnings-Announcements"
+        }
+      ]
+    },
+    {
+      "id": "model16",
+      "name": "Fundamental Scores",
+      "description": "This dataset ranks stocks based on fundamental and behavioral factors in 5 categories: Valuation, Growth, Profitability, Momentum and Quality. Within these categories, there are additional metrics that have been identified as being key drivers of stock performance. For example looking at valuation, we consider metrics such as price to earnings, price to book value and many more. The fundamental scores are distributed between 0 and 1, and the data frequency is monthly.",
+      "category": {
+        "id": "model",
+        "name": "Model"
+      },
+      "subcategory": {
+        "id": "model-valuation-models",
+        "name": "Valuation Models"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.3077,
+      "valueScore": 1.0,
+      "userCount": 4,
+      "alphaCount": 5,
+      "fieldCount": 8,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 01: The Momentum of News",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/13954113156503-Research-Paper-01-The-Momentum-of-News"
+        }
+      ]
+    },
+    {
+      "id": "model51",
+      "name": "Systematic Risk Metrics",
+      "description": "This is a risk-model data offering several metrics that can be used to quantify & identify risk. It provides technical information like beta, correlation and unsystematic risk all relative to SPY and systematic risk (also known as idiosyncratic risk) - each for different time periods. ",
+      "category": {
+        "id": "model",
+        "name": "Model"
+      },
+      "subcategory": {
+        "id": "model-risk-models",
+        "name": "Risk Models"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.7724,
+      "valueScore": 1.0,
+      "userCount": 17,
+      "alphaCount": 46,
+      "fieldCount": 16,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "model53",
+      "name": "Creditworthiness Risk Measure Model",
+      "description": "This dataset provides risk measures for public firms, non-public firms, U.S. banks, and sovereign counterparties which can be used to assess credit worthiness of an entire credit portfolio or on a single name basis. Inputs to the models include company specific attributes, industry related measures and relevant macro-economic factors. It provides a full term structure of risk for both corporate and sovereign credit names based upon a multiple models approach.",
+      "category": {
+        "id": "model",
+        "name": "Model"
+      },
+      "subcategory": {
+        "id": "model-risk-based-models",
+        "name": "Risk Based Models"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.9033,
+      "valueScore": 2.0,
+      "userCount": 5,
+      "alphaCount": 7,
+      "fieldCount": 42,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "model77",
+      "name": "Analysts' Factor Model",
+      "description": "Factor model dataset based on anaysts' evaluation",
+      "category": {
+        "id": "model",
+        "name": "Model"
+      },
+      "subcategory": {
+        "id": "model-technical-models",
+        "name": "Technical Models"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.8073,
+      "valueScore": 2.0,
+      "userCount": 51,
+      "alphaCount": 184,
+      "fieldCount": 1546,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "news12",
+      "name": "US News Data",
+      "description": "This dataset specializes in matching financial news with market data. They have analyzed 10s of millions of news events and know exactly which ones have an outsized impact on stock prices. So every single time a news item is released they know exactly what the average effect will be on a particular stock. ",
+      "category": {
+        "id": "news",
+        "name": "News"
+      },
+      "subcategory": {
+        "id": "news-news",
+        "name": "News"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.8034,
+      "valueScore": 1.0,
+      "userCount": 122,
+      "alphaCount": 199,
+      "fieldCount": 322,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "news18",
+      "name": "Ravenpack News Data",
+      "description": "This dataset provides news sentiment and other financial indicators. It has a number of different indicators derived from news events relating to different categories & specific companies. Each news event is classified to reflect its sentiment, uniqueness, relevance to underlying company and few other parameters.",
+      "category": {
+        "id": "news",
+        "name": "News"
+      },
+      "subcategory": {
+        "id": "news-news-sentiment",
+        "name": "News Sentiment"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.6779,
+      "valueScore": 1.0,
+      "userCount": 23,
+      "alphaCount": 37,
+      "fieldCount": 75,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 01: The Momentum of News",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/13954113156503-Research-Paper-01-The-Momentum-of-News"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 05: Predictability of Industry Returns After M&A Announcements",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15236009752215-Research-Paper-05-Predictability-of-Industry-Returns-After-M-A-Announcements"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 11: Analyst Following Along the Supply Chain",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15770899735703-Research-Paper-11-Analyst-Following-Along-the-Supply-Chain"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 13: Valuation Ratios, Surprises, Uncertainty or Sentiment: How Does Financial Machine Learning Predict Returns From Earnings Announcements?",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465058281495-Research-Paper-13-Valuation-Ratios-Surprises-Uncertainty-or-Sentiment-How-Does-Financial-Machine-Learning-Predict-Returns-From-Earnings-Announcements"
+        }
+      ]
+    },
+    {
+      "id": "option8",
+      "name": "Volatility Data",
+      "description": "This is an option dataset which provides historical & option implied volatilities for US equity market. Volatility is available for different time periods using various models. It also includes skew steepness indicators & volatilities for puts, calls and means.",
+      "category": {
+        "id": "option",
+        "name": "Option"
+      },
+      "subcategory": {
+        "id": "option-option-volatility",
+        "name": "Option Volatility"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.6948,
+      "valueScore": 1.0,
+      "userCount": 169,
+      "alphaCount": 243,
+      "fieldCount": 64,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "option9",
+      "name": "Options Analytics",
+      "description": "This dataset provide options metrics indicating sentiment, and pricing behavior of the market for the underlying stocks.  Specifically, this dataset provides 3 metrics: put/call ratios, forward prices, and options breakevens at different horizons.  All numbers denote options expiration x days in the future.",
+      "category": {
+        "id": "option",
+        "name": "Option"
+      },
+      "subcategory": {
+        "id": "option-option-analytics",
+        "name": "Option Analytics"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.7039,
+      "valueScore": 1.0,
+      "userCount": 33,
+      "alphaCount": 64,
+      "fieldCount": 74,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 10: Disagreement in Option Market and Cross Section Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465061985047-Research-Paper-10-Disagreement-in-Option-Market-and-Cross-Section-Stock-Returns"
+        }
+      ]
+    },
+    {
+      "id": "pv1",
+      "name": "Price Volume Data for Equity",
+      "description": "A dataset containing price, volume, close, open, high price, low price, number of shares, cap and related information of each stock.",
+      "category": {
+        "id": "pv",
+        "name": "Price Volume"
+      },
+      "subcategory": {
+        "id": "pv-price-volume",
+        "name": "Price Volume"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 1.0,
+      "valueScore": 1.0,
+      "userCount": 1131,
+      "alphaCount": 3057,
+      "fieldCount": 20,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 01: The Momentum of News",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/13954113156503-Research-Paper-01-The-Momentum-of-News"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 02: Tomorrow's Fish and Chip Paper? Slowly incorporated News and the Cross-section of Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/14302034193687-Research-Paper-02-Tomorrow-s-Fish-and-Chip-Paper-Slowly-incorporated-News-and-the-Cross-section-of-Stock-Returns"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 03: Cross-Firm Information Flows and the Predictability of Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/14626658089495-Research-Paper-03-Cross-Firm-Information-Flows-and-the-Predictability-of-Stock-Returns"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 05: Predictability of Industry Returns After M&A Announcements",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15236009752215-Research-Paper-05-Predictability-of-Industry-Returns-After-M-A-Announcements"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 07: Relative Strength Strategies for Investing",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15602317429655-Research-Paper-07-Relative-Strength-Strategies-for-Investing"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 08: Good Volatility, Bad Volatility and the Cross-Section of Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15765182114071-Research-Paper-08-Good-Volatility-Bad-Volatility-and-the-Cross-Section-of-Stock-Returns"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 09: The Invisible Burden",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465017312535-Research-Paper-09-The-Invisible-Burden"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 10: Disagreement in Option Market and Cross Section Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/15465061985047-Research-Paper-10-Disagreement-in-Option-Market-and-Cross-Section-Stock-Returns"
+        }
+      ]
+    },
+    {
+      "id": "pv13",
+      "name": "Relationship Data for Equity",
+      "description": "The dataset outputs various classifications and grouping of instruments based on such company connections. Most of grouping fields  are sparse, you may always use densify function such as group_neutralize(alpha, densify(group)) to avoid error while using group operators.",
+      "category": {
+        "id": "pv",
+        "name": "Price Volume"
+      },
+      "subcategory": {
+        "id": "pv-relationship",
+        "name": "Relationship"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.8109,
+      "valueScore": 1.0,
+      "userCount": 63,
+      "alphaCount": 231,
+      "fieldCount": 168,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "sentiment1",
+      "name": "Research Sentiment Data",
+      "description": "This dataset holds earning estimation/surprise and sentiment of each company in USA.",
+      "category": {
+        "id": "sentiment",
+        "name": "Sentiment"
+      },
+      "subcategory": {
+        "id": "sentiment-sentiment",
+        "name": "Sentiment"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.5607,
+      "valueScore": 2.0,
+      "userCount": 21,
+      "alphaCount": 60,
+      "fieldCount": 17,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "socialmedia12",
+      "name": "Sentiment Data for Equity",
+      "description": "This dataset provides sentiment data with different sentiment and volume. It analyses social media, news and opinions for financial markets to determine market mood & provide related trading signals. It monitors thousands of sources in real time to output reliable trading signals.",
+      "category": {
+        "id": "socialmedia",
+        "name": "Social Media"
+      },
+      "subcategory": {
+        "id": "socialmedia-social-media",
+        "name": "Social Media"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.9645,
+      "valueScore": 1.0,
+      "userCount": 30,
+      "alphaCount": 44,
+      "fieldCount": 12,
+      "themes": [],
+      "researchPapers": [
+        {
+          "type": "research",
+          "title": "Research Paper 01: The Momentum of News",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/13954113156503-Research-Paper-01-The-Momentum-of-News"
+        },
+        {
+          "type": "research",
+          "title": "Research Paper 02: Tomorrow's Fish and Chip Paper? Slowly incorporated News and the Cross-section of Stock Returns",
+          "url": "https://support.worldquantbrain.com/hc/en-us/community/posts/14302034193687-Research-Paper-02-Tomorrow-s-Fish-and-Chip-Paper-Slowly-incorporated-News-and-the-Cross-section-of-Stock-Returns"
+        }
+      ]
+    },
+    {
+      "id": "socialmedia8",
+      "name": "Social Media Data for Equity",
+      "description": "This is a sentiment dataset based on tweets or twitter messages. This dataset looks at data feed from twitter to quantify predictive social sentiment for different stocks. It also calculates the leading indicator of social sentiment for each security along with other key metrics. The methodology applied here smooths out signals for stocks with less activity on Twitter, thereby preventing spikes in scores & sentiments.",
+      "category": {
+        "id": "socialmedia",
+        "name": "Social Media"
+      },
+      "subcategory": {
+        "id": "socialmedia-social-media",
+        "name": "Social Media"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.8585,
+      "valueScore": 1.0,
+      "userCount": 17,
+      "alphaCount": 35,
+      "fieldCount": 2,
+      "themes": [],
+      "researchPapers": []
+    },
+    {
+      "id": "univ1",
+      "name": "Universe Dataset",
+      "description": "No dataset description",
+      "category": {
+        "id": "pv",
+        "name": "Price Volume"
+      },
+      "subcategory": {
+        "id": "pv-price-volume",
+        "name": "Price Volume"
+      },
+      "region": "USA",
+      "delay": 1,
+      "universe": "TOPSP500",
+      "coverage": 0.314,
+      "valueScore": 3.0,
+      "userCount": 0,
+      "alphaCount": 0,
+      "fieldCount": 5,
+      "themes": [],
+      "researchPapers": []
+    }
+  ]
+}
