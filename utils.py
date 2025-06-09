@@ -2,6 +2,7 @@ from base64 import b64encode
 from dotenv import load_dotenv, set_key
 import os
 import requests
+import sys
 from time import sleep
 import traceback
 
@@ -152,13 +153,22 @@ class Alpha:
             if (simulation_progress.headers.get('Retry-After', 0) == 0):
                 try:
                     alpha_id = simulation_progress.json()['alpha']
+
+                    clear_line = '\r' + ' ' * 60 + '\r'
+                    sys.stdout.write(clear_line)
+
+                    print(f'{clr.yellow}Alpha ID: {alpha_id}{clr.white}')
                     break
                 except Exception:
                     print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                     sleep(1)
                     continue
 
-            print(f'{clr.yellow}Simulation Progress: {100 * simulation_progress.json()['progress']}%{clr.white}')
+            progress_percent = 100 * simulation_progress.json()['progress']
+            progress_message = f'{clr.yellow}Attempt #{trial} | Simulation Progress: {progress_percent:.1f}%{clr.white}'
+            sys.stdout.write('\r' + progress_message)
+            sys.stdout.flush()
+
             sleep(2 * float(simulation_progress.headers['Retry-After']))
 
         while True:
@@ -170,7 +180,9 @@ class Alpha:
                 print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
-        return alpha_id, alpha
+        alpha['performance'] = Alpha.get_performance(wq_session, alpha_id)
+
+        return alpha
 
     def get_performance(wq_session, alpha_id):
         while True:
@@ -215,3 +227,10 @@ NaN Handling: {settings['nanHandling']}
 """
 
         return alpha_txt.strip()
+
+    def reverse(alpha_expression):
+
+        if (';' in alpha_expression):
+            return ';reverse('.join(alpha_expression.rsplit(';', 1)) + ')'
+        else:
+            return 'reverse(' + alpha_expression + ')'

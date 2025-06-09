@@ -121,6 +121,7 @@ class Model:
         return resp.total_tokens
 
     def get_output(client, model_config, context):
+
         while True:
             try:
                 response = client.models.generate_content(
@@ -136,29 +137,29 @@ class Model:
                 print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
-    def process_output(alpha):
+    def process_output(model_output):
 
-        payload = {
+        alpha_payload = {
             'type': 'REGULAR',
             'settings': {
-                'nanHandling': alpha['NaN Handling'],
+                'nanHandling': model_output['NaN Handling'],
                 'instrumentType': 'EQUITY',
-                'delay': alpha['Delay'],
-                'universe': alpha['Universe'],
-                'truncation': alpha['Truncation'],
+                'delay': model_output['Delay'],
+                'universe': model_output['Universe'],
+                'truncation': model_output['Truncation'],
                 'unitHandling': 'VERIFY',
                 'testPeriod': 'P0D',
                 'pasteurization': 'ON',
                 'region': 'USA',
                 'language': 'FASTEXPR',
-                'decay': alpha['Decay'],
-                'neutralization': alpha['Neutralization'],
+                'decay': model_output['Decay'],
+                'neutralization': model_output['Neutralization'],
                 'visualization': False
             },
-            'regular': alpha['Alpha Expression']
+            'regular': model_output['Alpha Expression']
         }
 
-        return payload
+        return alpha_payload
     
     def get_context(i, model_output):
 
@@ -219,7 +220,10 @@ context.append(
 
 
 print(f'{clr.purple}Model: {config.model}')
-print(f'Temperature: {config.temperature}')
+if (config.temperature is None):
+    print(f'Temperature: Dynamic')
+else:
+    print(f'Temperature: {config.temperature}')
 print(f'System Prompt File: {config.system_prompt_file}{clr.white}')
 
 
@@ -228,10 +232,32 @@ print(f'{clr.green}{config.initial_prompt}{clr.white}')
 
 for i in range(config.max_iterations):
 
+
     model_output = Model.get_output(genai_client, model_config, context)
 
+    alpha_payload = Model.process_output(model_output)
     model_context = Model.get_context(i, model_output)
-    alpha = Model.process_output(model_output)
+
+    print(f'{clr.cyan}{model_context}{clr.white}')
+
+    alpha = utils.Alpha.simulate(wq_session, alpha_payload)
+
+    insample = alpha['is']
+
+
+    if (insample['sharpe'] < 0 and insample['fitness'] and insample['returns'] < 0):
+        print(f'{clr.purple}Alpha Reversion Detected...{clr.white}')
+
+        model_output['Alpha Expression'] = utils.Alpha.reverse(model_output['Alpha Expression'])
+        alpha_payload['regular'] = model_output['Alpha Expression']
+
+        model_context = Model.get_context(i, model_output)
+
+        print(f'{clr.cyan}{model_context}{clr.white}')
+
+
+        alpha = utils.Alpha.simulate(wq_session, alpha_payload)
+    
 
     context.append(
         types.Content(
@@ -241,22 +267,16 @@ for i in range(config.max_iterations):
             ]
         )
     )
-    print(f'{clr.cyan}{model_context}{clr.white}')
 
-    alpha_id, simul_resp = utils.Alpha.simulate(wq_session, alpha)
-    performance = utils.Alpha.get_performance(wq_session, alpha_id)
-
-    update_peformance(performance)
-
-    simul_resp['performance'] = performance
+    update_peformance(alpha['performance'])
 
     with open(config.simulations_file, 'r+') as f:
         data = json.load(f)
-        data.append(simul_resp)
+        data.append(alpha)
         f.seek(0)
         json.dump(data, f, indent=2)
 
-    user_context = User.get_context(simul_resp)
+    user_context = User.get_context(alpha)
 
     context.append(
         types.Content(
