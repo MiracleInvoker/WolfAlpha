@@ -43,7 +43,6 @@ ax.set_ylabel('Performance')
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 fig.canvas.manager.set_window_title('WolfAlpha')
 
-
 def update_peformance(peformance):
     performance_history.append(peformance)
     line.set_xdata(range(1, 1 + len(performance_history)))
@@ -112,19 +111,18 @@ model_config = types.GenerateContentConfig(
 
 
 class Model:
-    def count_tokens(client, context):
-        resp = client.models.count_tokens(
+    def count_tokens(context):
+        resp = genai_client.models.count_tokens(
             model=config.model,
             contents=context
         )
 
         return resp.total_tokens
 
-    def get_output(client, model_config, context):
-
+    def get_output(context):
         while True:
             try:
-                response = client.models.generate_content(
+                response = genai_client.models.generate_content(
                     model=config.model,
                     contents=context,
                     config=model_config
@@ -137,29 +135,29 @@ class Model:
                 print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
-    def process_output(model_output):
+    def process_output(alpha):
 
-        alpha_payload = {
+        payload = {
             'type': 'REGULAR',
             'settings': {
-                'nanHandling': model_output['NaN Handling'],
+                'nanHandling': alpha['NaN Handling'],
                 'instrumentType': 'EQUITY',
-                'delay': model_output['Delay'],
-                'universe': model_output['Universe'],
-                'truncation': model_output['Truncation'],
+                'delay': alpha['Delay'],
+                'universe': alpha['Universe'],
+                'truncation': alpha['Truncation'],
                 'unitHandling': 'VERIFY',
                 'testPeriod': 'P0D',
                 'pasteurization': 'ON',
                 'region': 'USA',
                 'language': 'FASTEXPR',
-                'decay': model_output['Decay'],
-                'neutralization': model_output['Neutralization'],
+                'decay': alpha['Decay'],
+                'neutralization': alpha['Neutralization'],
                 'visualization': False
             },
-            'regular': model_output['Alpha Expression']
+            'regular': alpha['Alpha Expression']
         }
 
-        return alpha_payload
+        return payload
     
     def get_context(i, model_output):
 
@@ -189,8 +187,10 @@ class User:
 
         user_context = f"""
 Simulation Results:
-Sharpe: {insample['sharpe']}, Fitness: {insample['fitness']}, Turnover: {round(100 * insample['turnover'], 2)}%, Performance: {simul_resp['performance']}
-Returns: {round(100 * insample['returns'], 2)}%, Drawdown: {round(100 * insample['drawdown'], 2)}%, Sub Universe Sharpe: {checks[5]['value']}, Margin: {round(10000 * insample['margin'], 2)}‱
+Sharpe: {insample['sharpe']}
+Fitness: {insample['fitness']}
+Performance: {simul_resp['Score Change']}
+Turnover: {round(100 * insample['turnover'], 2)}%
 """
 
         if (checks[4]['result'] == 'FAIL'):
@@ -207,6 +207,17 @@ Returns: {round(100 * insample['returns'], 2)}%, Drawdown: {round(100 * insample
             user_context += '\n'
 
         return user_context.strip()
+    
+    def save_iteration(context, alpha):
+
+        with open(config.simulations_file, 'r+') as f:
+            data = json.load(f)
+            data.append(alpha)
+            f.seek(0)
+            json.dump(data, f, indent=2)
+
+        with open(config.context_file, 'wb') as f:
+            pickle.dump(context, f)
 
 
 context.append(
@@ -220,10 +231,7 @@ context.append(
 
 
 print(f'{clr.purple}Model: {config.model}')
-if (config.temperature is None):
-    print(f'Temperature: Dynamic')
-else:
-    print(f'Temperature: {config.temperature}')
+print(f'Temperature: {config.temperature}')
 print(f'System Prompt File: {config.system_prompt_file}{clr.white}')
 
 
@@ -232,32 +240,10 @@ print(f'{clr.green}{config.initial_prompt}{clr.white}')
 
 for i in range(config.max_iterations):
 
+    model_output = Model.get_output(context)
 
-    model_output = Model.get_output(genai_client, model_config, context)
-
-    alpha_payload = Model.process_output(model_output)
     model_context = Model.get_context(i, model_output)
-
-    print(f'{clr.cyan}{model_context}{clr.white}')
-
-    alpha = utils.Alpha.simulate(wq_session, alpha_payload)
-
-    insample = alpha['is']
-
-
-    if (insample['sharpe'] < 0 and insample['fitness'] and insample['returns'] < 0):
-        print(f'{clr.purple}Alpha Reversion Detected...{clr.white}')
-
-        model_output['Alpha Expression'] = utils.Alpha.reverse(model_output['Alpha Expression'])
-        alpha_payload['regular'] = model_output['Alpha Expression']
-
-        model_context = Model.get_context(i, model_output)
-
-        print(f'{clr.cyan}{model_context}{clr.white}')
-
-
-        alpha = utils.Alpha.simulate(wq_session, alpha_payload)
-    
+    alpha_payload = Model.process_output(model_output)
 
     context.append(
         types.Content(
@@ -267,14 +253,11 @@ for i in range(config.max_iterations):
             ]
         )
     )
+    print(f'{clr.cyan}{model_context}{clr.white}')
 
-    update_peformance(alpha['performance'])
+    alpha = utils.Alpha.simulate(wq_session, alpha_payload)
 
-    with open(config.simulations_file, 'r+') as f:
-        data = json.load(f)
-        data.append(alpha)
-        f.seek(0)
-        json.dump(data, f, indent=2)
+    update_peformance(alpha['Score Change'])
 
     user_context = User.get_context(alpha)
 
@@ -286,13 +269,11 @@ for i in range(config.max_iterations):
             ]
         )
     )
-
     print(f'{clr.green}{user_context}{clr.white}')
 
-    with open(config.context_file, 'wb') as f:
-        pickle.dump(context, f)
+    User.save_iteration(context, alpha)
 
-    token_count = Model.count_tokens(genai_client, context)
+    token_count = Model.count_tokens(context)
     print(f'{clr.purple}Token Count: {token_count}{clr.white}')
 
     print()

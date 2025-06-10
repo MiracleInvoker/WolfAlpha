@@ -7,6 +7,9 @@ from time import sleep
 import traceback
 
 
+erase_line = '\r\x1b[2K'
+
+
 class API:
     base = 'https://api.worldquantbrain.com'
     auth = base + '/authentication'
@@ -133,7 +136,7 @@ class Alpha:
             try:
                 simulation_response = wq_session.post(
                     API.simul,
-                    json=simulation_data
+                    json = simulation_data
                 )
 
                 simulation_progress_url = simulation_response.headers['Location']
@@ -154,20 +157,18 @@ class Alpha:
                 try:
                     alpha_id = simulation_progress.json()['alpha']
 
-                    clear_line = '\r' + ' ' * 60 + '\r'
-                    sys.stdout.write(clear_line)
+                    print(f'{erase_line}{clr.yellow}Alpha ID: {alpha_id}{clr.white}', end = '')
 
-                    print(f'{clr.yellow}Alpha ID: {alpha_id}{clr.white}')
                     break
+
                 except Exception:
                     print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                     sleep(1)
                     continue
 
             progress_percent = 100 * simulation_progress.json()['progress']
-            progress_message = f'{clr.yellow}Attempt #{trial} | Simulation Progress: {progress_percent:.1f}%{clr.white}'
-            sys.stdout.write('\r' + progress_message)
-            sys.stdout.flush()
+
+            print(f'{erase_line}{clr.yellow}Attempt #{trial} | Simulation Progress: {progress_percent}%{clr.white}', end = '')
 
             sleep(2 * float(simulation_progress.headers['Retry-After']))
 
@@ -180,7 +181,26 @@ class Alpha:
                 print(f'{clr.red}{traceback.format_exc()}{clr.white}')
                 sleep(1)
 
-        alpha['performance'] = Alpha.get_performance(wq_session, alpha_id)
+        while True:
+            performance_response = wq_session.get(API.performance(alpha_id))
+            if (performance_response.text):
+                try:
+                    performance_comparison = performance_response.json()
+                    break
+                except Exception:
+                    print(f'{clr.red}{traceback.format_exc()}{clr.white}')
+                    sleep(1)
+
+            print(f'{erase_line}{clr.yellow}Alpha ID: {alpha_id} | Getting Performance...{clr.white}', end = '')
+
+            sleep(float(performance_response.headers['Retry-After']))
+        
+        alpha['Performance Comparison'] = performance_comparison
+
+        score_change = performance_comparison['score']['after'] - performance_comparison['score']['before']
+        alpha['Score Change'] = score_change
+
+        print(f'{erase_line}{clr.yellow}Alpha ID: {alpha_id} | Performance: {score_change}{clr.white}')
 
         return alpha
 
