@@ -62,3 +62,4 @@ def prompt_with_fields():
     return prompt
 
 operators()
+prompt_with_fields()
