@@ -5,9 +5,9 @@ simulations_file = ''
 max_iterations = 100
 
 
-system_prompt_file = 'T3'
+system_prompt_file = 'prompt'
 model = 'gemini-2.5-flash-preview-05-20'
-temperature = 0
+temperature = 1
 thinking_budget = 24576
 initial_prompt = """
 

@@ -27,6 +27,9 @@ class API:
 
     def check_submission(alpha_id):
         return f'{API.base}/alphas/{alpha_id}/check'
+    
+    def pnl(alpha_id):
+        return f'{API.base}/alphas/{alpha_id}/recordsets/pnl'
 
 
 class data_set:
@@ -89,23 +92,6 @@ def wq_login():
         't': t
     })
 
-    resp = wq_session.get(API.auth)
-
-    if (resp.status_code == 204 or resp.json()['token']['expiry'] < 1800):
-
-        print(f'{clr.yellow}logging in...{clr.white}')
-        authorization = os.getenv('email') + ':' + os.getenv('pass')
-        authorization = b64encode(authorization.encode())
-
-        resp = wq_session.post(
-            API.auth, headers={'authorization': 'Basic ' + authorization.decode()})
-
-        t = resp.headers['Set-Cookie'].split(';')[0][2:]
-        wq_session.cookies.update({
-            't': t
-        })
-
-        set_key('.env', 't', t)
 
     return wq_session
 
